@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>sa_tc0_uninstall_app</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8389e76d-1d8f-4f53-a9e6-1bcc96621e17</testCaseGuid>
+</TestCaseEntity>

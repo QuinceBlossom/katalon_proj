@@ -1,0 +1,51 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+1-2,,,,04-11-2025 16:26:02,04-11-2025 16:27:37,1m - 35.025s,PASSED
+,,,,,,,
+Test Cases/sa_tc1,,,,04-11-2025 16:26:03,04-11-2025 16:26:58,55.742s,PASSED
+"startExistingApplication(""com.samsung.android.goodlock"")",,,,04-11-2025 16:26:03,04-11-2025 16:26:17,13.831s,PASSED
+Thread.sleep(2000),,,,04-11-2025 16:26:17,04-11-2025 16:26:19,2.050s,PASSED
+"process = getRuntime().exec(""adb shell input keyevent 187"")",,,,04-11-2025 16:26:19,04-11-2025 16:26:19,0.021s,PASSED
+process.waitFor(),,,,04-11-2025 16:26:19,04-11-2025 16:26:19,0.120s,PASSED
+Thread.sleep(2000),,,,04-11-2025 16:26:19,04-11-2025 16:26:21,2.015s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.Button - Close all""), 0)",,,,04-11-2025 16:26:21,04-11-2025 16:26:23,1.864s,PASSED
+process.waitFor(),,,,04-11-2025 16:26:23,04-11-2025 16:26:23,0.016s,PASSED
+Thread.sleep(2000),,,,04-11-2025 16:26:23,04-11-2025 16:26:25,2.010s,PASSED
+"startExistingApplication(""com.samsung.android.goodlock"")",,,,04-11-2025 16:26:25,04-11-2025 16:26:29,3.297s,PASSED
+Thread.sleep(5000),,,,04-11-2025 16:26:29,04-11-2025 16:26:34,5.006s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.TextView - Plugins (1)""), 2000)",,,,04-11-2025 16:26:34,04-11-2025 16:26:35,1.374s,PASSED
+"tap(findTestObject(""Object Repository/Extensions/android.widget.TextView - Extensions""), 2000)",,,,04-11-2025 16:26:35,04-11-2025 16:26:36,1.060s,PASSED
+"tap(findTestObject(""Object Repository/Extensions/android.widget.TextView - Sound Assistant""), 2000)",,,,04-11-2025 16:26:36,04-11-2025 16:26:37,1.027s,PASSED
+"swipe(341, 2000, 341, 300)",,,,04-11-2025 16:26:37,04-11-2025 16:26:38,0.692s,PASSED
+"swipe(540, 430, 540, 1900)",,,,04-11-2025 16:26:38,04-11-2025 16:26:38,0.643s,PASSED
+"tap(findTestObject(""Object Repository/Extensions/android.widget.Button - download""), 2000)",,,,04-11-2025 16:26:38,04-11-2025 16:26:39,0.405s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Extensions/android.widget.Button - play""), 120)",,,,04-11-2025 16:26:39,04-11-2025 16:26:55,16.595s,PASSED
+"tap(findTestObject(""Object Repository/Extensions/android.widget.Button - play""), 2000)",,,,04-11-2025 16:26:55,04-11-2025 16:26:56,0.391s,PASSED
+"tap(findTestObject(""Object Repository/Extensions/android.widget.Button - Continue""), 2000)",,,,04-11-2025 16:26:56,04-11-2025 16:26:57,1.650s,PASSED
+"tap(findTestObject(""Object Repository/Extensions/android.widget.Button - Allow""), 2000)",,,,04-11-2025 16:26:57,04-11-2025 16:26:58,0.977s,PASSED
+,,,,,,,
+Test Cases/sa_tc2,,,,04-11-2025 16:26:58,04-11-2025 16:27:37,38.136s,PASSED
+"startExistingApplication(""com.samsung.android.goodlock"")",,,,04-11-2025 16:26:59,04-11-2025 16:27:02,3.117s,PASSED
+Thread.sleep(2000),,,,04-11-2025 16:27:02,04-11-2025 16:27:04,2.006s,PASSED
+"process = getRuntime().exec(""adb shell input keyevent 187"")",,,,04-11-2025 16:27:04,04-11-2025 16:27:04,0.017s,PASSED
+process.waitFor(),,,,04-11-2025 16:27:04,04-11-2025 16:27:04,0.153s,PASSED
+Thread.sleep(2000),,,,04-11-2025 16:27:04,04-11-2025 16:27:06,2.018s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.Button - Close all""), 0)",,,,04-11-2025 16:27:06,04-11-2025 16:27:08,1.651s,PASSED
+process.waitFor(),,,,04-11-2025 16:27:08,04-11-2025 16:27:08,0.007s,PASSED
+Thread.sleep(2000),,,,04-11-2025 16:27:08,04-11-2025 16:27:10,2.009s,PASSED
+"startExistingApplication(""com.samsung.android.goodlock"")",,,,04-11-2025 16:27:10,04-11-2025 16:27:13,3.039s,PASSED
+Thread.sleep(5000),,,,04-11-2025 16:27:13,04-11-2025 16:27:18,5.012s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.TextView - Plugins (1)""), 2000)",,,,04-11-2025 16:27:18,04-11-2025 16:27:19,1.365s,PASSED
+"tap(findTestObject(""Object Repository/Extensions/android.widget.TextView - Extensions""), 2000)",,,,04-11-2025 16:27:19,04-11-2025 16:27:20,1.384s,PASSED
+"tap(findTestObject(""Object Repository/Extensions/android.widget.Button - info app""), 0)",,,,04-11-2025 16:27:20,04-11-2025 16:27:21,0.968s,PASSED
+"swipe(540, 430, 540, 1900)",,,,04-11-2025 16:27:21,04-11-2025 16:27:22,0.616s,PASSED
+"tap(findTestObject(""Object Repository/Extensions/android.widget.Button - more_option""), 0)",,,,04-11-2025 16:27:22,04-11-2025 16:27:23,0.712s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.TextView - Go to store""), 0)",,,,04-11-2025 16:27:23,04-11-2025 16:27:25,2.567s,PASSED
+pressBack(),,,,04-11-2025 16:27:25,04-11-2025 16:27:27,1.211s,PASSED
+"tap(findTestObject(""Object Repository/Extensions/android.widget.Button - more_option""), 0)",,,,04-11-2025 16:27:27,04-11-2025 16:27:28,1.399s,PASSED
+"tap(findTestObject(""Object Repository/Extensions/android.widget.TextView - About""), 0)",,,,04-11-2025 16:27:28,04-11-2025 16:27:31,3.397s,PASSED
+"isPresent = waitForElementPresent(findTestObject(""Object Repository/android.widget.TextView - SoundAssistant""), 5, OPTIONAL)",,,,04-11-2025 16:27:31,04-11-2025 16:27:32,0.386s,PASSED
+if (isPresent),,,,04-11-2025 16:27:32,04-11-2025 16:27:32,0.097s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.Button (3)""), 0)",,,,04-11-2025 16:27:32,04-11-2025 16:27:33,1.321s,PASSED
+"getText(findTestObject(""Object Repository/Extensions/android.widget.TextView - Uninstall this app""), 0)",,,,04-11-2025 16:27:33,04-11-2025 16:27:34,1.200s,PASSED
+pressBack(),,,,04-11-2025 16:27:34,04-11-2025 16:27:35,0.210s,PASSED
+Thread.sleep(2000),,,,04-11-2025 16:27:35,04-11-2025 16:27:37,2.014s,PASSED

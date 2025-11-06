@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="1-2" time="94.631" tests="2" failures="0" errors="0">
+   <testsuite name="1-2" tests="2" failures="0" errors="0" time="94.631" skipped="0" timestamp="2025-11-04T09:26:02.431Z" hostname="SRV - DESKTOP-QEBENQ0" id="Test Suites/1-2">
+      <properties>
+         <property name="deviceName" value="samsung SM-F966U (Android 16)"/>
+         <property name="devicePlatform" value="Android"/>
+         <property name="logFolder" value="D:\\KATALON\\katalon_proj\\katalon_proj\\Reports\\20251104_162557\\1-2\\20251104_162557"/>
+         <property name="logFiles" value="D:\\KATALON\\katalon_proj\\katalon_proj\\Reports\\20251104_162557\\1-2\\20251104_162557\\appium.log, D:\\KATALON\\katalon_proj\\katalon_proj\\Reports\\20251104_162557\\1-2\\20251104_162557\\appium_error.log, D:\\KATALON\\katalon_proj\\katalon_proj\\Reports\\20251104_162557\\1-2\\20251104_162557\\console0.log, D:\\KATALON\\katalon_proj\\katalon_proj\\Reports\\20251104_162557\\1-2\\20251104_162557\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="SRV - DESKTOP-QEBENQ0"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="10.4.0.0"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="userFullName" value="Pham Duy"/>
+         <property name="deviceModel" value="SM-F966U"/>
+         <property name="hostAddress" value="192.168.0.48"/>
+         <property name="projectName" value="katalon_proj"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="R3CY30PBS0K"/>
+         <property name="deviceName" value="samsung SM-F966U (Android 16)"/>
+         <property name="deviceOSVersion" value="16"/>
+      </properties>
+      <testcase name="Test Cases/sa_tc1" time="55.742" classname="Test Cases/sa_tc1" status="PASSED">
+         <system-out><![CDATA[04-11-2025T16:26:03 - [TEST_CASE][PASSED] - Test Cases/sa_tc1: Test Cases/sa_tc1
+
+04-11-2025T16:26:03 - [TEST_STEP][PASSED] - startExistingApplication("com.samsung.android.goodlock"): Starting application with Id: 'com.samsung.android.goodlock'
+
+04-11-2025T16:26:04 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+04-11-2025T16:26:08 - [MESSAGE][INFO] - PATH: C:\Program Files\nodejs;
+
+04-11-2025T16:26:08 - [MESSAGE][INFO] - APPIUM_HOME: C:\Users\SRV\.appium
+
+04-11-2025T16:26:08 - [MESSAGE][INFO] - appium outlog: D:\KATALON\katalon_proj\katalon_proj\Reports\20251104_162557\1-2\20251104_162557\appium.log
+
+04-11-2025T16:26:08 - [MESSAGE][INFO] - appium errlog: D:\KATALON\katalon_proj\katalon_proj\Reports\20251104_162557\1-2\20251104_162557\appium_error.log
+
+04-11-2025T16:26:12 - [MESSAGE][INFO] - Appium server started on port 57,843
+
+04-11-2025T16:26:17 - [MESSAGE][WARNING] - Unable to get appium status. Root cause (Cannot invoke "com.google.gson.JsonObject.getAsJsonPrimitive(String)" because the return value of "com.google.gson.JsonObject.getAsJsonObject(String)" is null)
+
+04-11-2025T16:26:17 - [MESSAGE][PASSED] - Starting application with Id: 'com.samsung.android.goodlock'
+
+04-11-2025T16:26:17 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+04-11-2025T16:26:19 - [TEST_STEP][PASSED] - process = getRuntime().exec("adb shell input keyevent 187"): null
+
+04-11-2025T16:26:19 - [TEST_STEP][PASSED] - process.waitFor(): null
+
+04-11-2025T16:26:19 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+04-11-2025T16:26:21 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/android.widget.Button - Close all"), 0): Tapped on element 'Object Repository/android.widget.Button - Close all'
+
+04-11-2025T16:26:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+04-11-2025T16:26:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.Button - Close all'
+
+04-11-2025T16:26:23 - [TEST_STEP][PASSED] - process.waitFor(): null
+
+04-11-2025T16:26:23 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+04-11-2025T16:26:25 - [TEST_STEP][PASSED] - startExistingApplication("com.samsung.android.goodlock"): Starting application with Id: 'com.samsung.android.goodlock'
+
+04-11-2025T16:26:28 - [MESSAGE][WARNING] - Unable to get appium status. Root cause (Cannot invoke "com.google.gson.JsonObject.getAsJsonPrimitive(String)" because the return value of "com.google.gson.JsonObject.getAsJsonObject(String)" is null)
+
+04-11-2025T16:26:29 - [MESSAGE][PASSED] - Starting application with Id: 'com.samsung.android.goodlock'
+
+04-11-2025T16:26:29 - [TEST_STEP][PASSED] - Thread.sleep(5000): null
+
+04-11-2025T16:26:34 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/android.widget.TextView - Plugins (1)"), 2000): Tapped on element 'Object Repository/android.widget.TextView - Plugins (1)'
+
+04-11-2025T16:26:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.TextView - Plugins (1)'
+
+04-11-2025T16:26:35 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Extensions/android.widget.TextView - Extensions"), 2000): Tapped on element 'Object Repository/Extensions/android.widget.TextView - Extensions'
+
+04-11-2025T16:26:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Extensions/android.widget.TextView - Extensions'
+
+04-11-2025T16:26:36 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Extensions/android.widget.TextView - Sound Assistant"), 2000): Tapped on element 'Object Repository/Extensions/android.widget.TextView - Sound Assistant'
+
+04-11-2025T16:26:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Extensions/android.widget.TextView - Sound Assistant'
+
+04-11-2025T16:26:37 - [TEST_STEP][PASSED] - swipe(341, 2000, 341, 300): Swiped from 341,2,000 to 341,300
+
+04-11-2025T16:26:38 - [MESSAGE][PASSED] - Swiped from 341,2,000 to 341,300
+
+04-11-2025T16:26:38 - [TEST_STEP][PASSED] - swipe(540, 430, 540, 1900): Swiped from 540,430 to 540,1,900
+
+04-11-2025T16:26:38 - [MESSAGE][PASSED] - Swiped from 540,430 to 540,1,900
+
+04-11-2025T16:26:38 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Extensions/android.widget.Button - download"), 2000): Tapped on element 'Object Repository/Extensions/android.widget.Button - download'
+
+04-11-2025T16:26:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Extensions/android.widget.Button - download'
+
+04-11-2025T16:26:39 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Extensions/android.widget.Button - play"), 120): Element 'Object Repository/Extensions/android.widget.Button - play' is present
+
+04-11-2025T16:26:55 - [MESSAGE][PASSED] - Element 'Object Repository/Extensions/android.widget.Button - play' is present
+
+04-11-2025T16:26:55 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Extensions/android.widget.Button - play"), 2000): Tapped on element 'Object Repository/Extensions/android.widget.Button - play'
+
+04-11-2025T16:26:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Extensions/android.widget.Button - play'
+
+04-11-2025T16:26:56 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Extensions/android.widget.Button - Continue"), 2000): Tapped on element 'Object Repository/Extensions/android.widget.Button - Continue'
+
+04-11-2025T16:26:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Extensions/android.widget.Button - Continue'
+
+04-11-2025T16:26:57 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Extensions/android.widget.Button - Allow"), 2000): Tapped on element 'Object Repository/Extensions/android.widget.Button - Allow'
+
+04-11-2025T16:26:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Extensions/android.widget.Button - Allow']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/sa_tc2" time="38.136" classname="Test Cases/sa_tc2" status="PASSED">
+         <system-out><![CDATA[04-11-2025T16:26:58 - [TEST_CASE][PASSED] - Test Cases/sa_tc2: Test Cases/sa_tc2
+
+04-11-2025T16:26:59 - [TEST_STEP][PASSED] - startExistingApplication("com.samsung.android.goodlock"): Starting application with Id: 'com.samsung.android.goodlock'
+
+04-11-2025T16:27:01 - [MESSAGE][WARNING] - Unable to get appium status. Root cause (Cannot invoke "com.google.gson.JsonObject.getAsJsonPrimitive(String)" because the return value of "com.google.gson.JsonObject.getAsJsonObject(String)" is null)
+
+04-11-2025T16:27:02 - [MESSAGE][PASSED] - Starting application with Id: 'com.samsung.android.goodlock'
+
+04-11-2025T16:27:02 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+04-11-2025T16:27:04 - [TEST_STEP][PASSED] - process = getRuntime().exec("adb shell input keyevent 187"): null
+
+04-11-2025T16:27:04 - [TEST_STEP][PASSED] - process.waitFor(): null
+
+04-11-2025T16:27:04 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+04-11-2025T16:27:06 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/android.widget.Button - Close all"), 0): Tapped on element 'Object Repository/android.widget.Button - Close all'
+
+04-11-2025T16:27:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+04-11-2025T16:27:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.Button - Close all'
+
+04-11-2025T16:27:08 - [TEST_STEP][PASSED] - process.waitFor(): null
+
+04-11-2025T16:27:08 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+04-11-2025T16:27:10 - [TEST_STEP][PASSED] - startExistingApplication("com.samsung.android.goodlock"): Starting application with Id: 'com.samsung.android.goodlock'
+
+04-11-2025T16:27:12 - [MESSAGE][WARNING] - Unable to get appium status. Root cause (Cannot invoke "com.google.gson.JsonObject.getAsJsonPrimitive(String)" because the return value of "com.google.gson.JsonObject.getAsJsonObject(String)" is null)
+
+04-11-2025T16:27:13 - [MESSAGE][PASSED] - Starting application with Id: 'com.samsung.android.goodlock'
+
+04-11-2025T16:27:13 - [TEST_STEP][PASSED] - Thread.sleep(5000): null
+
+04-11-2025T16:27:18 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/android.widget.TextView - Plugins (1)"), 2000): Tapped on element 'Object Repository/android.widget.TextView - Plugins (1)'
+
+04-11-2025T16:27:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.TextView - Plugins (1)'
+
+04-11-2025T16:27:19 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Extensions/android.widget.TextView - Extensions"), 2000): Tapped on element 'Object Repository/Extensions/android.widget.TextView - Extensions'
+
+04-11-2025T16:27:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Extensions/android.widget.TextView - Extensions'
+
+04-11-2025T16:27:20 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Extensions/android.widget.Button - info app"), 0): Tapped on element 'Object Repository/Extensions/android.widget.Button - info app'
+
+04-11-2025T16:27:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+04-11-2025T16:27:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Extensions/android.widget.Button - info app'
+
+04-11-2025T16:27:21 - [TEST_STEP][PASSED] - swipe(540, 430, 540, 1900): Swiped from 540,430 to 540,1,900
+
+04-11-2025T16:27:22 - [MESSAGE][PASSED] - Swiped from 540,430 to 540,1,900
+
+04-11-2025T16:27:22 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Extensions/android.widget.Button - more_option"), 0): Tapped on element 'Object Repository/Extensions/android.widget.Button - more_option'
+
+04-11-2025T16:27:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+04-11-2025T16:27:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Extensions/android.widget.Button - more_option'
+
+04-11-2025T16:27:23 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/android.widget.TextView - Go to store"), 0): Tapped on element 'Object Repository/android.widget.TextView - Go to store'
+
+04-11-2025T16:27:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+04-11-2025T16:27:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.TextView - Go to store'
+
+04-11-2025T16:27:25 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+04-11-2025T16:27:27 - [MESSAGE][PASSED] - Press back button successfully
+
+04-11-2025T16:27:27 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Extensions/android.widget.Button - more_option"), 0): Tapped on element 'Object Repository/Extensions/android.widget.Button - more_option'
+
+04-11-2025T16:27:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+04-11-2025T16:27:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Extensions/android.widget.Button - more_option'
+
+04-11-2025T16:27:28 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Extensions/android.widget.TextView - About"), 0): Tapped on element 'Object Repository/Extensions/android.widget.TextView - About'
+
+04-11-2025T16:27:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+04-11-2025T16:27:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Extensions/android.widget.TextView - About'
+
+04-11-2025T16:27:31 - [TEST_STEP][PASSED] - isPresent = waitForElementPresent(findTestObject("Object Repository/android.widget.TextView - SoundAssistant"), 5, OPTIONAL): Element 'Object Repository/android.widget.TextView - SoundAssistant' is present
+
+04-11-2025T16:27:32 - [MESSAGE][PASSED] - Element 'Object Repository/android.widget.TextView - SoundAssistant' is present
+
+04-11-2025T16:27:32 - [TEST_STEP][PASSED] - if (isPresent): Press back button successfully
+
+04-11-2025T16:27:32 - [TEST_STEP][PASSED] - println("Vào màn About SoundAssistant thành công"): null
+
+04-11-2025T16:27:32 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+04-11-2025T16:27:32 - [MESSAGE][PASSED] - Press back button successfully
+
+04-11-2025T16:27:32 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/android.widget.Button (3)"), 0): Tapped on element 'Object Repository/android.widget.Button (3)'
+
+04-11-2025T16:27:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+04-11-2025T16:27:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.Button (3)'
+
+04-11-2025T16:27:33 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/Extensions/android.widget.TextView - Uninstall this app"), 0): Text of element 'Object Repository/Extensions/android.widget.TextView - Uninstall this app' is: 'Uninstall this app?'
+
+04-11-2025T16:27:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+04-11-2025T16:27:34 - [MESSAGE][PASSED] - Text of element 'Object Repository/Extensions/android.widget.TextView - Uninstall this app' is: 'Uninstall this app?'
+
+04-11-2025T16:27:34 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+04-11-2025T16:27:35 - [MESSAGE][PASSED] - Press back button successfully
+
+04-11-2025T16:27:35 - [TEST_STEP][PASSED] - Thread.sleep(2000): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[04-11-2025T16:26:02 - [TEST_SUITE][PASSED] - 1-2: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

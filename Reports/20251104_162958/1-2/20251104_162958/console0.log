@@ -1,0 +1,52 @@
+2025-11-04 16:30:03.538 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\SRV\.katalon\packages\KSE-10.4.0\configuration\org.eclipse.osgi\131\0\.cp\resources\logback\logback-execution.xml
+2025-11-04 16:30:03.538 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: D:\KATALON\katalon_proj\katalon_proj\Include\config\log.properties
+2025-11-04 16:30:03.736 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/1-2
+2025-11-04 16:30:03.868 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Pham Duy
+2025-11-04 16:30:03.893 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = katalon_proj
+2025-11-04 16:30:03.898 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = SRV - DESKTOP-QEBENQ0
+2025-11-04 16:30:03.903 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 10 64bit
+2025-11-04 16:30:03.908 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.0.48
+2025-11-04 16:30:03.934 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.4.0.0
+2025-11-04 16:30:04.607 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-11-04 16:30:04.607 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/sa_tc1
+2025-11-04 16:30:05.224 DEBUG testcase.sa_tc1                          - 1: startExistingApplication("com.samsung.android.goodlock")
+2025-11-04 16:30:05.841 INFO  c.k.k.c.a.driver.AppiumDriverManager     - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+2025-11-04 16:30:10.381 INFO  c.k.k.c.a.driver.AppiumDriverManager     - PATH: C:\Program Files\nodejs;
+2025-11-04 16:30:10.385 INFO  c.k.k.c.a.driver.AppiumDriverManager     - APPIUM_HOME: C:\Users\SRV\.appium
+2025-11-04 16:30:10.391 INFO  c.k.k.c.a.driver.AppiumDriverManager     - appium outlog: D:\KATALON\katalon_proj\katalon_proj\Reports\20251104_162958\1-2\20251104_162958\appium.log
+2025-11-04 16:30:10.401 INFO  c.k.k.c.a.driver.AppiumDriverManager     - appium errlog: D:\KATALON\katalon_proj\katalon_proj\Reports\20251104_162958\1-2\20251104_162958\appium_error.log
+[38;5;112m[Appium][0m Welcome to Appium v3.1.0
+[38;5;112m[Appium][0m Non-default server args:
+[38;5;112m[Appium][0m { basePath: [32m'/wd/hub'[39m, loglevel: [32m'info'[39m, port: [33m58689[39m }
+[38;5;112m[Appium][0m Attempting to load driver uiautomator2...
+2025-11-04 16:30:13.832 INFO  c.k.k.c.a.driver.AppiumDriverManager     - Appium server started on port 58,689
+[38;5;112m[Appium][0m Appium REST http interface listener started on http://0.0.0.0:58689/wd/hub
+[38;5;112m[Appium][0m You can provide the following URLs in your client code to connect to this server:
+	http://192.168.0.48:58689/wd/hub
+	http://127.0.0.1:58689/wd/hub (only accessible from the same host)
+[38;5;112m[Appium][0m Available drivers:
+[38;5;112m[Appium][0m   - uiautomator2@6.1.0 (automationName 'UiAutomator2')
+[38;5;112m[Appium][0m No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
+[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m [90m[39m
+[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m6 ms - 110[39m [90m[39m
+[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m [90m{"capabilities":{"firstMatch":[{"appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"samsung SM-F966U (Android 16)","appium:newCommandTimeout":1800,"appium:platformVersion":"16","appium:systemPort":8290,"appium:udid":"R3CY30PBS0K","platformName":"ANDROID"}]},"desiredCapabilities":{"appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"samsung SM-F966U (Android 16)","appium:newCommandTimeout":1800,"appium:platformVersion":"16","appium:systemPort":8290,"appium:udid":"R3CY30PBS0K","platformName":"ANDROID"}}[39m
+[38;5;123m[BaseDriver][0m The following arguments are not known and will be ignored: desiredCapabilities
+[38;5;112m[Appium][0m Attempting to find matching driver for automationName 'uiautomator2' and platformName 'ANDROID'
+[38;5;112m[Appium][0m The 'uiautomator2' driver was installed and matched caps.
+[38;5;112m[Appium][0m Will require it at C:\Users\SRV\.appium\node_modules\appium-uiautomator2-driver
+[38;5;229m[AppiumDriver@0a20][0m Appium v3.1.0 creating new AndroidUiautomator2Driver (v6.1.0) session
+[38;5;229m[AppiumDriver@0a20][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;229m[AppiumDriver@0a20][0m Appium's BaseDriver version is 10.1.0
+[38;5;229m[AppiumDriver@0a20][0m AndroidUiautomator2Driver's BaseDriver version is 10.1.0
+[38;5;65m[497444c8][0m[38;5;-55m[AndroidUiautomator2Driver@3a48][0m Session created with session id: 497444c8-c661-47a6-abc4-4848983e8b87
+[38;5;65m[497444c8][0m[38;5;229m[ADB][0m Found 1 'build-tools' folders under 'C:\Users\SRV\.katalon\tools\android_sdk' (newest first):
+[38;5;65m[497444c8][0m[38;5;229m[ADB][0m     C:\Users\SRV\.katalon\tools\android_sdk\build-tools\29.0.3
+[38;5;65m[497444c8][0m[38;5;229m[ADB][0m Using 'adb.exe' from 'C:\Users\SRV\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[38;5;65m[497444c8][0m[38;5;-55m[AndroidUiautomator2Driver@3a48][0m Retrieving device list
+[38;5;65m[497444c8][0m[38;5;-55m[AndroidUiautomator2Driver@3a48][0m Using device: R3CY30PBS0K
+[38;5;65m[497444c8][0m[38;5;229m[ADB][0m Using 'adb.exe' from 'C:\Users\SRV\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[38;5;65m[497444c8][0m[38;5;-55m[AndroidUiautomator2Driver@3a48][0m Neither 'app' nor 'appPackage' was set. Starting UiAutomator2 without the target application
+[38;5;65m[497444c8][0m[38;5;229m[ADB][0m Getting device platform version
+[38;5;65m[497444c8][0m[38;5;-55m[AndroidUiautomator2Driver@3a48][0m Relaxing hidden api policy
+[38;5;65m[497444c8][0m[38;5;229m[ADB][0m Using 'aapt2.exe' from 'C:\Users\SRV\.katalon\tools\android_sdk\build-tools\29.0.3\aapt2.exe'
+[38;5;65m[497444c8][0m[38;5;-55m[AndroidUiautomator2Driver@3a48][0m Server packages are not going to be (re)installed

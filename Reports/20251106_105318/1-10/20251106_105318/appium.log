@@ -1,0 +1,247 @@
+[38;5;112m[Appium][0m Welcome to Appium v3.1.0
+[38;5;112m[Appium][0m Non-default server args:
+[38;5;112m[Appium][0m { basePath: [32m'/wd/hub'[39m, loglevel: [32m'info'[39m, port: [33m64932[39m }
+[38;5;112m[Appium][0m Attempting to load driver uiautomator2...
+[38;5;112m[Appium][0m Appium REST http interface listener started on http://0.0.0.0:64932/wd/hub
+[38;5;112m[Appium][0m You can provide the following URLs in your client code to connect to this server:
+	http://192.168.0.48:64932/wd/hub
+	http://127.0.0.1:64932/wd/hub (only accessible from the same host)
+[38;5;112m[Appium][0m Available drivers:
+[38;5;112m[Appium][0m   - uiautomator2@6.1.0 (automationName 'UiAutomator2')
+[38;5;112m[Appium][0m No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
+[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m [90m[39m
+[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m10 ms - 110[39m [90m[39m
+[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m [90m{"capabilities":{"firstMatch":[{"appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"samsung SM-F966U (Android 16)","appium:newCommandTimeout":1800,"appium:platformVersion":"16","appium:systemPort":8221,"appium:udid":"R3CY30PBS0K","platformName":"ANDROID"}]},"desiredCapabilities":{"appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"samsung SM-F966U (Android 16)","appium:newCommandTimeout":1800,"appium:platformVersion":"16","appium:systemPort":8221,"appium:udid":"R3CY30PBS0K","platformName":"ANDROID"}}[39m
+[38;5;123m[BaseDriver][0m The following arguments are not known and will be ignored: desiredCapabilities
+[38;5;112m[Appium][0m Attempting to find matching driver for automationName 'uiautomator2' and platformName 'ANDROID'
+[38;5;112m[Appium][0m The 'uiautomator2' driver was installed and matched caps.
+[38;5;112m[Appium][0m Will require it at C:\Users\SRV\.appium\node_modules\appium-uiautomator2-driver
+[38;5;99m[AppiumDriver@7e09][0m Appium v3.1.0 creating new AndroidUiautomator2Driver (v6.1.0) session
+[38;5;99m[AppiumDriver@7e09][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;99m[AppiumDriver@7e09][0m Appium's BaseDriver version is 10.1.0
+[38;5;99m[AppiumDriver@7e09][0m AndroidUiautomator2Driver's BaseDriver version is 10.1.0
+[38;5;133m[5e1b9816][0m[38;5;-71m[AndroidUiautomator2Driver@7e2b][0m Session created with session id: 5e1b9816-aab2-47b4-871a-c4ac6a83b15c
+[38;5;133m[5e1b9816][0m[38;5;229m[ADB][0m Found 1 'build-tools' folders under 'C:\Users\SRV\.katalon\tools\android_sdk' (newest first):
+[38;5;133m[5e1b9816][0m[38;5;229m[ADB][0m     C:\Users\SRV\.katalon\tools\android_sdk\build-tools\29.0.3
+[38;5;133m[5e1b9816][0m[38;5;229m[ADB][0m Using 'adb.exe' from 'C:\Users\SRV\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[38;5;133m[5e1b9816][0m[38;5;-71m[AndroidUiautomator2Driver@7e2b][0m Retrieving device list
+[38;5;133m[5e1b9816][0m[38;5;-71m[AndroidUiautomator2Driver@7e2b][0m Using device: R3CY30PBS0K
+[38;5;133m[5e1b9816][0m[38;5;229m[ADB][0m Using 'adb.exe' from 'C:\Users\SRV\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[38;5;133m[5e1b9816][0m[38;5;-71m[AndroidUiautomator2Driver@7e2b][0m Neither 'app' nor 'appPackage' was set. Starting UiAutomator2 without the target application
+[38;5;133m[5e1b9816][0m[38;5;229m[ADB][0m Getting device platform version
+[38;5;133m[5e1b9816][0m[38;5;-71m[AndroidUiautomator2Driver@7e2b][0m Relaxing hidden api policy
+[38;5;133m[5e1b9816][0m[38;5;229m[ADB][0m Using 'aapt2.exe' from 'C:\Users\SRV\.katalon\tools\android_sdk\build-tools\29.0.3\aapt2.exe'
+[38;5;133m[5e1b9816][0m[38;5;-71m[AndroidUiautomator2Driver@7e2b][0m Server packages are not going to be (re)installed
+[38;5;133m[5e1b9816][0m[38;5;229m[ADB][0m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[38;5;133m[5e1b9816][0m[38;5;-71m[AndroidUiautomator2Driver@7e2b][0m Starting UIAutomator2 server 9.1.1
+[38;5;133m[5e1b9816][0m[38;5;-71m[AndroidUiautomator2Driver@7e2b][0m Using UIAutomator2 server from 'C:\Users\SRV\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v9.1.1.apk' and test from 'C:\Users\SRV\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+[38;5;133m[5e1b9816][0m[38;5;-71m[AndroidUiautomator2Driver@7e2b][0m Waiting up to 30000ms for UiAutomator2 to be online...
+[38;5;133m[5e1b9816][0m[38;5;-71m[AndroidUiautomator2Driver@7e2b][0m socket hang up
+[38;5;133m[5e1b9816][0m[38;5;-71m[AndroidUiautomator2Driver@7e2b][0m Determined the downstream protocol as 'W3C'
+[38;5;133m[5e1b9816][0m[38;5;-71m[AndroidUiautomator2Driver@7e2b][0m Neither 'unlockType' nor 'unlockKey' capability is provided. Assuming the device is locked with a simple lock screen.
+[38;5;133m[5e1b9816][0m[38;5;229m[ADB][0m Waking up the device to dismiss the keyguard
+[38;5;133m[5e1b9816][0m[38;5;99m[AppiumDriver@7e09][0m New AndroidUiautomator2Driver session created successfully, session 5e1b9816-aab2-47b4-871a-c4ac6a83b15c added to master session list
+[38;5;133m[5e1b9816][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m2871 ms - 962[39m [90m[39m
+[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/status[39m [90m[39m
+[38;5;86m[HTTP][0m [37m<-- GET /status [39m[33m404[39m [90m9 ms - 3047[39m [90m[39m
+[38;5;133m[5e1b9816][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5e1b9816-aab2-47b4-871a-c4ac6a83b15c/timeouts[39m [90m{"implicit":60000}[39m
+[38;5;133m[5e1b9816][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/5e1b9816-aab2-47b4-871a-c4ac6a83b15c/timeouts [39m[32m200[39m [90m4 ms - 14[39m [90m[39m
+[38;5;133m[5e1b9816][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5e1b9816-aab2-47b4-871a-c4ac6a83b15c/execute/sync[39m [90m{"script":"mobile: getSystemBars","args":[]}[39m
+[38;5;133m[5e1b9816][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/5e1b9816-aab2-47b4-871a-c4ac6a83b15c/execute/sync [39m[32m200[39m [90m70 ms - 152[39m [90m[39m
+[38;5;133m[5e1b9816][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5e1b9816-aab2-47b4-871a-c4ac6a83b15c/execute/sync[39m [90m{"script":"mobile: activateApp","args":[{"appId":"com.samsung.android.soundassistant","bundleId":"com.samsung.android.soundassistant"}]}[39m
+[38;5;133m[5e1b9816][0m[38;5;123m[BaseDriver][0m The following arguments are not known and will be ignored: bundleId
+[38;5;133m[5e1b9816][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/5e1b9816-aab2-47b4-871a-c4ac6a83b15c/execute/sync [39m[32m200[39m [90m144 ms - 14[39m [90m[39m
+[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m [90m[39m
+[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 110[39m [90m[39m
+[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m [90m{"capabilities":{"firstMatch":[{"appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"samsung SM-F966U (Android 16)","appium:newCommandTimeout":1800,"appium:platformVersion":"16","appium:systemPort":8205,"appium:udid":"R3CY30PBS0K","platformName":"ANDROID"}]},"desiredCapabilities":{"appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"samsung SM-F966U (Android 16)","appium:newCommandTimeout":1800,"appium:platformVersion":"16","appium:systemPort":8205,"appium:udid":"R3CY30PBS0K","platformName":"ANDROID"}}[39m
+[38;5;123m[BaseDriver][0m The following arguments are not known and will be ignored: desiredCapabilities
+[38;5;112m[Appium][0m Attempting to find matching driver for automationName 'uiautomator2' and platformName 'ANDROID'
+[38;5;112m[Appium][0m The 'uiautomator2' driver was installed and matched caps.
+[38;5;112m[Appium][0m Will require it at C:\Users\SRV\.appium\node_modules\appium-uiautomator2-driver
+[38;5;99m[AppiumDriver@7e09][0m Appium v3.1.0 creating new AndroidUiautomator2Driver (v6.1.0) session
+[38;5;99m[AppiumDriver@7e09][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;99m[AppiumDriver@7e09][0m Appium's BaseDriver version is 10.1.0
+[38;5;99m[AppiumDriver@7e09][0m AndroidUiautomator2Driver's BaseDriver version is 10.1.0
+[38;5;220m[1eb69fbc][0m[38;5;15m[AndroidUiautomator2Driver@25c4][0m Session created with session id: 1eb69fbc-28d9-4b95-ae4a-16bce3956a12
+[38;5;220m[1eb69fbc][0m[38;5;229m[ADB][0m Using 'adb.exe' from 'C:\Users\SRV\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[38;5;220m[1eb69fbc][0m[38;5;15m[AndroidUiautomator2Driver@25c4][0m Retrieving device list
+[38;5;220m[1eb69fbc][0m[38;5;15m[AndroidUiautomator2Driver@25c4][0m Using device: R3CY30PBS0K
+[38;5;220m[1eb69fbc][0m[38;5;229m[ADB][0m Using 'adb.exe' from 'C:\Users\SRV\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[38;5;220m[1eb69fbc][0m[38;5;15m[AndroidUiautomator2Driver@25c4][0m Neither 'app' nor 'appPackage' was set. Starting UiAutomator2 without the target application
+[38;5;220m[1eb69fbc][0m[38;5;229m[ADB][0m Getting device platform version
+[38;5;220m[1eb69fbc][0m[38;5;15m[AndroidUiautomator2Driver@25c4][0m Relaxing hidden api policy
+[38;5;220m[1eb69fbc][0m[38;5;229m[ADB][0m Using 'aapt2.exe' from 'C:\Users\SRV\.katalon\tools\android_sdk\build-tools\29.0.3\aapt2.exe'
+[38;5;220m[1eb69fbc][0m[38;5;15m[AndroidUiautomator2Driver@25c4][0m Server packages are not going to be (re)installed
+[38;5;220m[1eb69fbc][0m[38;5;229m[ADB][0m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[38;5;220m[1eb69fbc][0m[38;5;15m[AndroidUiautomator2Driver@25c4][0m Starting UIAutomator2 server 9.1.1
+[38;5;220m[1eb69fbc][0m[38;5;15m[AndroidUiautomator2Driver@25c4][0m Using UIAutomator2 server from 'C:\Users\SRV\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v9.1.1.apk' and test from 'C:\Users\SRV\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+[38;5;220m[1eb69fbc][0m[38;5;15m[AndroidUiautomator2Driver@25c4][0m Waiting up to 30000ms for UiAutomator2 to be online...
+[38;5;220m[1eb69fbc][0m[38;5;15m[AndroidUiautomator2Driver@25c4][0m socket hang up
+[38;5;220m[1eb69fbc][0m[38;5;15m[AndroidUiautomator2Driver@25c4][0m Determined the downstream protocol as 'W3C'
+[38;5;220m[1eb69fbc][0m[38;5;15m[AndroidUiautomator2Driver@25c4][0m Neither 'unlockType' nor 'unlockKey' capability is provided. Assuming the device is locked with a simple lock screen.
+[38;5;220m[1eb69fbc][0m[38;5;229m[ADB][0m Waking up the device to dismiss the keyguard
+[38;5;220m[1eb69fbc][0m[38;5;99m[AppiumDriver@7e09][0m New AndroidUiautomator2Driver session created successfully, session 1eb69fbc-28d9-4b95-ae4a-16bce3956a12 added to master session list
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m2380 ms - 962[39m [90m[39m
+[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/status[39m [90m[39m
+[38;5;86m[HTTP][0m [37m<-- GET /status [39m[33m404[39m [90m4 ms - 3047[39m [90m[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/timeouts[39m [90m{"implicit":60000}[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/timeouts [39m[32m200[39m [90m1 ms - 14[39m [90m[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/execute/sync[39m [90m{"script":"mobile: getSystemBars","args":[]}[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/execute/sync [39m[32m200[39m [90m80 ms - 152[39m [90m[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/execute/sync[39m [90m{"script":"mobile: activateApp","args":[{"appId":"com.samsung.android.soundassistant","bundleId":"com.samsung.android.soundassistant"}]}[39m
+[38;5;220m[1eb69fbc][0m[38;5;123m[BaseDriver][0m The following arguments are not known and will be ignored: bundleId
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/execute/sync [39m[32m200[39m [90m105 ms - 14[39m [90m[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/timeouts[39m [90m{}[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/timeouts [39m[32m200[39m [90m2 ms - 46[39m [90m[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/timeouts[39m [90m{"implicit":0}[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/timeouts [39m[32m200[39m [90m2 ms - 14[39m [90m[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/elements[39m [90m{"value":"//*[@class = 'android.widget.Button' and (@text = 'Continue' or . = 'Continue') and @resource-id = 'com.samsung.android.soundassistant:id/btn_continue']","using":"xpath"}[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/elements [39m[32m200[39m [90m139 ms - 12[39m [90m[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/timeouts[39m [90m{"implicit":0}[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/timeouts [39m[32m200[39m [90m1 ms - 14[39m [90m[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/elements[39m [90m{"value":"//*[@class = 'android.widget.Button' and (@text = 'Continue' or . = 'Continue') and @resource-id = 'com.samsung.android.soundassistant:id/btn_continue']","using":"xpath"}[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/elements [39m[32m200[39m [90m620 ms - 139[39m [90m[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/timeouts[39m [90m{"implicit":60000}[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/timeouts [39m[32m200[39m [90m3 ms - 14[39m [90m[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/element/00000000-0000-0af6-ffff-ffff00000031/click[39m [90m{"id":"00000000-0000-0af6-ffff-ffff00000031"}[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/element/00000000-0000-0af6-ffff-ffff00000031/click [39m[32m200[39m [90m45 ms - 14[39m [90m[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/timeouts[39m [90m{}[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/timeouts [39m[32m200[39m [90m2 ms - 46[39m [90m[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/timeouts[39m [90m{"implicit":0}[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/timeouts [39m[32m200[39m [90m1 ms - 14[39m [90m[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/elements[39m [90m{"value":"//*[@class = 'android.widget.Button' and (@text = 'Allow' or . = 'Allow') and @resource-id = 'com.android.permissioncontroller:id/permission_allow_button']","using":"xpath"}[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/elements [39m[32m200[39m [90m666 ms - 139[39m [90m[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/timeouts[39m [90m{"implicit":60000}[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/timeouts [39m[32m200[39m [90m3 ms - 14[39m [90m[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/element/00000000-0000-0af7-ffff-ffff0000030a/click[39m [90m{"id":"00000000-0000-0af7-ffff-ffff0000030a"}[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/element/00000000-0000-0af7-ffff-ffff0000030a/click [39m[32m200[39m [90m51 ms - 14[39m [90m[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/timeouts[39m [90m{}[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/timeouts [39m[32m200[39m [90m1 ms - 46[39m [90m[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/timeouts[39m [90m{"implicit":0}[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/timeouts [39m[32m200[39m [90m2 ms - 14[39m [90m[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/elements[39m [90m{"value":"//*[@class = 'android.widget.TextView' and (@text = 'Customize volume panel' or . = 'Customize volume panel') and @resource-id = 'android:id/title']","using":"xpath"}[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/elements [39m[32m200[39m [90m573 ms - 139[39m [90m[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/timeouts[39m [90m{"implicit":60000}[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/timeouts [39m[32m200[39m [90m1 ms - 14[39m [90m[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/element/00000000-0000-0af6-ffff-ffff00000044/click[39m [90m{"id":"00000000-0000-0af6-ffff-ffff00000044"}[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/element/00000000-0000-0af6-ffff-ffff00000044/click [39m[32m200[39m [90m67 ms - 14[39m [90m[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/timeouts[39m [90m{}[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/timeouts [39m[32m200[39m [90m1 ms - 46[39m [90m[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/timeouts[39m [90m{"implicit":0}[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/timeouts [39m[32m200[39m [90m1 ms - 14[39m [90m[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/elements[39m [90m{"value":"//*[@class = 'android.widget.TextView' and (@text = 'On' or . = 'On') and @resource-id = 'com.samsung.android.soundassistant:id/sesl_switchbar_text']","using":"xpath"}[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/elements [39m[32m200[39m [90m732 ms - 12[39m [90m[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/timeouts[39m [90m{"implicit":0}[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/timeouts [39m[32m200[39m [90m3 ms - 14[39m [90m[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/elements[39m [90m{"value":"//*[@class = 'android.widget.TextView' and (@text = 'On' or . = 'On') and @resource-id = 'com.samsung.android.soundassistant:id/sesl_switchbar_text']","using":"xpath"}[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/elements [39m[32m200[39m [90m304 ms - 12[39m [90m[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/timeouts[39m [90m{"implicit":0}[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/timeouts [39m[32m200[39m [90m3 ms - 14[39m [90m[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/elements[39m [90m{"value":"//*[@class = 'android.widget.TextView' and (@text = 'On' or . = 'On') and @resource-id = 'com.samsung.android.soundassistant:id/sesl_switchbar_text']","using":"xpath"}[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/elements [39m[32m200[39m [90m98 ms - 12[39m [90m[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/timeouts[39m [90m{"implicit":0}[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/timeouts [39m[32m200[39m [90m3 ms - 14[39m [90m[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/elements[39m [90m{"value":"//*[@class = 'android.widget.TextView' and (@text = 'On' or . = 'On') and @resource-id = 'com.samsung.android.soundassistant:id/sesl_switchbar_text']","using":"xpath"}[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/elements [39m[32m200[39m [90m108 ms - 12[39m [90m[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/timeouts[39m [90m{"implicit":0}[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/timeouts [39m[32m200[39m [90m2 ms - 14[39m [90m[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/elements[39m [90m{"value":"//*[@class = 'android.widget.TextView' and (@text = 'On' or . = 'On') and @resource-id = 'com.samsung.android.soundassistant:id/sesl_switchbar_text']","using":"xpath"}[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/elements [39m[32m200[39m [90m111 ms - 12[39m [90m[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/timeouts[39m [90m{"implicit":60000}[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/timeouts [39m[32m200[39m [90m3 ms - 14[39m [90m[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/timeouts[39m [90m{}[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/timeouts [39m[32m200[39m [90m2 ms - 46[39m [90m[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/timeouts[39m [90m{"implicit":0}[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/timeouts [39m[32m200[39m [90m3 ms - 14[39m [90m[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/elements[39m [90m{"value":"//*[@class = 'android.widget.TextView' and (@text = 'Off' or . = 'Off') and @resource-id = 'com.samsung.android.soundassistant:id/sesl_switchbar_text']","using":"xpath"}[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/elements [39m[32m200[39m [90m117 ms - 139[39m [90m[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/timeouts[39m [90m{"implicit":60000}[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/timeouts [39m[32m200[39m [90m3 ms - 14[39m [90m[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/timeouts[39m [90m{}[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/timeouts [39m[32m200[39m [90m1 ms - 46[39m [90m[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/timeouts[39m [90m{"implicit":0}[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/timeouts [39m[32m200[39m [90m1 ms - 14[39m [90m[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/elements[39m [90m{"value":"//*[@class = 'android.widget.Switch' and @resource-id = 'com.samsung.android.soundassistant:id/sesl_switchbar_switch' and (@text = '' or . = '')]","using":"xpath"}[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/elements [39m[32m200[39m [90m93 ms - 139[39m [90m[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/timeouts[39m [90m{"implicit":60000}[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/timeouts [39m[32m200[39m [90m1 ms - 14[39m [90m[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/element/00000000-0000-0af6-ffff-ffff00000018/click[39m [90m{"id":"00000000-0000-0af6-ffff-ffff00000018"}[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/element/00000000-0000-0af6-ffff-ffff00000018/click [39m[32m200[39m [90m44 ms - 14[39m [90m[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/timeouts[39m [90m{}[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/timeouts [39m[32m200[39m [90m1 ms - 46[39m [90m[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/timeouts[39m [90m{"implicit":0}[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/timeouts [39m[32m200[39m [90m1 ms - 14[39m [90m[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/elements[39m [90m{"value":"//*[@class = 'android.widget.TextView' and (@text = 'On' or . = 'On') and @resource-id = 'com.samsung.android.soundassistant:id/sesl_switchbar_text']","using":"xpath"}[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/elements [39m[32m200[39m [90m109 ms - 139[39m [90m[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/timeouts[39m [90m{"implicit":60000}[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/timeouts [39m[32m200[39m [90m1 ms - 14[39m [90m[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/timeouts[39m [90m{}[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/timeouts [39m[32m200[39m [90m2 ms - 46[39m [90m[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/timeouts[39m [90m{"implicit":0}[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/timeouts [39m[32m200[39m [90m1 ms - 14[39m [90m[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/elements[39m [90m{"value":"//*[@class = 'android.widget.TextView' and (@text = 'Custom' or . = 'Custom') and @resource-id = 'android:id/title']","using":"xpath"}[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/elements [39m[32m200[39m [90m84 ms - 139[39m [90m[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/timeouts[39m [90m{"implicit":60000}[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/timeouts [39m[32m200[39m [90m1 ms - 14[39m [90m[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/element/00000000-0000-0af6-ffff-ffff00000127/click[39m [90m{"id":"00000000-0000-0af6-ffff-ffff00000127"}[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/element/00000000-0000-0af6-ffff-ffff00000127/click [39m[32m200[39m [90m50 ms - 14[39m [90m[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/timeouts[39m [90m{}[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/timeouts [39m[32m200[39m [90m1 ms - 46[39m [90m[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/timeouts[39m [90m{"implicit":0}[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/timeouts [39m[32m200[39m [90m1 ms - 14[39m [90m[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/elements[39m [90m{"value":"//*[@class = 'android.widget.TextView' and (@text = 'Standard panel' or . = 'Standard panel') and @resource-id = 'com.samsung.android.soundassistant:id/title']","using":"xpath"}[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/elements [39m[32m200[39m [90m68 ms - 139[39m [90m[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/timeouts[39m [90m{"implicit":60000}[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/timeouts [39m[32m200[39m [90m2 ms - 14[39m [90m[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/timeouts[39m [90m{}[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/timeouts [39m[32m200[39m [90m2 ms - 46[39m [90m[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/timeouts[39m [90m{"implicit":0}[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/timeouts [39m[32m200[39m [90m1 ms - 14[39m [90m[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/elements[39m [90m{"value":"//*[@class = 'android.widget.TextView' and (@text = 'Expanded panel' or . = 'Expanded panel') and @resource-id = 'com.samsung.android.soundassistant:id/title']","using":"xpath"}[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/elements [39m[32m200[39m [90m80 ms - 139[39m [90m[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/timeouts[39m [90m{"implicit":60000}[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/timeouts [39m[32m200[39m [90m2 ms - 14[39m [90m[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/element/00000000-0000-0af6-ffff-ffff0000013a/click[39m [90m{"id":"00000000-0000-0af6-ffff-ffff0000013a"}[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/element/00000000-0000-0af6-ffff-ffff0000013a/click [39m[32m200[39m [90m47 ms - 14[39m [90m[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/timeouts[39m [90m{}[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/timeouts [39m[32m200[39m [90m1 ms - 46[39m [90m[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/timeouts[39m [90m{"implicit":0}[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/timeouts [39m[32m200[39m [90m1 ms - 14[39m [90m[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/elements[39m [90m{"value":"//*[@class = 'android.widget.TextView' and (@text = 'Bluetooth metronome' or . = 'Bluetooth metronome') and @resource-id = 'com.samsung.android.soundassistant:id/setting_av_sync']","using":"xpath"}[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/elements [39m[32m200[39m [90m1072 ms - 139[39m [90m[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/timeouts[39m [90m{"implicit":60000}[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/timeouts [39m[32m200[39m [90m3 ms - 14[39m [90m[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/element/00000000-0000-0af6-ffff-ffff000001bc/click[39m [90m{"id":"00000000-0000-0af6-ffff-ffff000001bc"}[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/element/00000000-0000-0af6-ffff-ffff000001bc/click [39m[32m200[39m [90m34 ms - 14[39m [90m[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/timeouts[39m [90m{}[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/timeouts [39m[32m200[39m [90m2 ms - 46[39m [90m[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/timeouts[39m [90m{"implicit":0}[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/timeouts [39m[32m200[39m [90m2 ms - 14[39m [90m[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/elements[39m [90m{"value":"//*[@class = 'android.widget.TextView' and (@text = 'Show toolbar functions' or . = 'Show toolbar functions') and @resource-id = 'com.samsung.android.soundassistant:id/setting_toolbar']","using":"xpath"}[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/elements [39m[32m200[39m [90m920 ms - 139[39m [90m[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/timeouts[39m [90m{"implicit":60000}[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/timeouts [39m[32m200[39m [90m2 ms - 14[39m [90m[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/element/00000000-0000-0af6-ffff-ffff000001bd/click[39m [90m{"id":"00000000-0000-0af6-ffff-ffff000001bd"}[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/element/00000000-0000-0af6-ffff-ffff000001bd/click [39m[32m200[39m [90m37 ms - 14[39m [90m[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/timeouts[39m [90m{}[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/timeouts [39m[32m200[39m [90m1 ms - 46[39m [90m[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/timeouts[39m [90m{"implicit":0}[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/timeouts [39m[32m200[39m [90m1 ms - 14[39m [90m[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/elements[39m [90m{"value":"//*[@class = 'android.widget.TextView' and (@text = 'App volume' or . = 'App volume') and @resource-id = 'com.samsung.android.soundassistant:id/setting_app_sound']","using":"xpath"}[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/elements [39m[32m200[39m [90m859 ms - 139[39m [90m[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/timeouts[39m [90m{"implicit":60000}[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/timeouts [39m[32m200[39m [90m1 ms - 14[39m [90m[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/element/00000000-0000-0af6-ffff-ffff000001be/click[39m [90m{"id":"00000000-0000-0af6-ffff-ffff000001be"}[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/element/00000000-0000-0af6-ffff-ffff000001be/click [39m[32m200[39m [90m46 ms - 14[39m [90m[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/execute/sync[39m [90m{"script":"mobile: getCurrentPackage","args":[]}[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/execute/sync [39m[32m200[39m [90m107 ms - 46[39m [90m[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/execute/sync[39m [90m{"script":"mobile: terminateApp","args":[{"appId":"com.samsung.android.soundassistant","bundleId":"com.samsung.android.soundassistant"}]}[39m
+[38;5;220m[1eb69fbc][0m[38;5;123m[BaseDriver][0m The following arguments are not known and will be ignored: bundleId
+[38;5;220m[1eb69fbc][0m[38;5;15m[AndroidUiautomator2Driver@25c4][0m Terminating 'com.samsung.android.soundassistant'
+[38;5;220m[1eb69fbc][0m[38;5;15m[AndroidUiautomator2Driver@25c4][0m Querying the state of 'com.samsung.android.soundassistant'
+[38;5;220m[1eb69fbc][0m[38;5;15m[AndroidUiautomator2Driver@25c4][0m 'com.samsung.android.soundassistant' has been successfully terminated
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12/execute/sync [39m[32m200[39m [90m483 ms - 14[39m [90m[39m
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12[39m [90m{}[39m
+[38;5;220m[1eb69fbc][0m[38;5;99m[AppiumDriver@7e09][0m Removing session 1eb69fbc-28d9-4b95-ae4a-16bce3956a12 from our master session list
+[38;5;220m[1eb69fbc][0m[38;5;15m[AndroidUiautomator2Driver@25c4][0m Restoring hidden api policy to the device default configuration
+[38;5;220m[1eb69fbc][0m[38;5;86m[HTTP][0m [37m<-- DELETE /wd/hub/session/1eb69fbc-28d9-4b95-ae4a-16bce3956a12 [39m[32m200[39m [90m308 ms - 14[39m [90m[39m
