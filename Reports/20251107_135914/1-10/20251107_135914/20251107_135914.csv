@@ -1,0 +1,211 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+1-10,,,,07-11-2025 13:59:20,07-11-2025 14:04:21,5m - 0.881s,PASSED
+,,,,,,,
+Test Cases/sa_tc0_uninstall_app,,,,07-11-2025 13:59:21,07-11-2025 13:59:23,1.579s,PASSED
+"packageName = ""com.samsung.android.soundassistant""",,,,07-11-2025 13:59:22,07-11-2025 13:59:22,0.011s,PASSED
+"checkCommand = ""adb shell pm list packages "" + packageName",,,,07-11-2025 13:59:22,07-11-2025 13:59:22,0.020s,PASSED
+checkProcess = getRuntime().exec(checkCommand),,,,07-11-2025 13:59:22,07-11-2025 13:59:22,0.056s,PASSED
+checkProcess.waitFor(),,,,07-11-2025 13:59:22,07-11-2025 13:59:22,0.158s,PASSED
+checkResult = text,,,,07-11-2025 13:59:22,07-11-2025 13:59:22,0.044s,PASSED
+if (checkResult.contains(packageName)),,,,07-11-2025 13:59:22,07-11-2025 13:59:23,0.402s,PASSED
+,,,,,,,
+Test Cases/sa_tc1,,,,07-11-2025 13:59:23,07-11-2025 14:00:16,53.729s,PASSED
+"startExistingApplication(""com.samsung.android.goodlock"")",,,,07-11-2025 13:59:23,07-11-2025 13:59:39,15.986s,PASSED
+Thread.sleep(2000),,,,07-11-2025 13:59:39,07-11-2025 13:59:41,2.091s,PASSED
+"process = getRuntime().exec(""adb shell input keyevent 187"")",,,,07-11-2025 13:59:41,07-11-2025 13:59:41,0.048s,PASSED
+process.waitFor(),,,,07-11-2025 13:59:41,07-11-2025 13:59:41,0.252s,PASSED
+Thread.sleep(2000),,,,07-11-2025 13:59:41,07-11-2025 13:59:43,2.016s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.Button - Close all""), 0)",,,,07-11-2025 13:59:43,07-11-2025 13:59:45,1.776s,PASSED
+process.waitFor(),,,,07-11-2025 13:59:45,07-11-2025 13:59:45,0.004s,PASSED
+Thread.sleep(2000),,,,07-11-2025 13:59:45,07-11-2025 13:59:47,2.006s,PASSED
+"startExistingApplication(""com.samsung.android.goodlock"")",,,,07-11-2025 13:59:47,07-11-2025 13:59:50,2.783s,PASSED
+Thread.sleep(5000),,,,07-11-2025 13:59:50,07-11-2025 13:59:55,5.020s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.TextView - Plugins (1)""), 2000)",,,,07-11-2025 13:59:55,07-11-2025 13:59:56,1.443s,PASSED
+"tap(findTestObject(""Object Repository/Extensions/android.widget.TextView - Extensions""), 2000)",,,,07-11-2025 13:59:56,07-11-2025 13:59:58,1.175s,PASSED
+"tap(findTestObject(""Object Repository/Extensions/android.widget.TextView - Sound Assistant""), 2000)",,,,07-11-2025 13:59:58,07-11-2025 13:59:59,1.138s,PASSED
+"swipe(341, 2000, 341, 300)",,,,07-11-2025 13:59:59,07-11-2025 13:59:59,0.641s,PASSED
+"swipe(540, 430, 540, 1900)",,,,07-11-2025 13:59:59,07-11-2025 14:00:00,0.613s,PASSED
+"tap(findTestObject(""Object Repository/Extensions/android.widget.Button - download""), 2000)",,,,07-11-2025 14:00:00,07-11-2025 14:00:01,0.464s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Extensions/android.widget.Button - play""), 120)",,,,07-11-2025 14:00:01,07-11-2025 14:00:14,12.998s,PASSED
+"tap(findTestObject(""Object Repository/Extensions/android.widget.Button - play""), 2000)",,,,07-11-2025 14:00:14,07-11-2025 14:00:14,0.421s,PASSED
+"tap(findTestObject(""Object Repository/Extensions/android.widget.Button - Continue""), 2000)",,,,07-11-2025 14:00:14,07-11-2025 14:00:16,1.582s,PASSED
+"tap(findTestObject(""Object Repository/Extensions/android.widget.Button - Allow""), 2000)",,,,07-11-2025 14:00:16,07-11-2025 14:00:16,0.936s,PASSED
+,,,,,,,
+Test Cases/sa_tc2,,,,07-11-2025 14:00:16,07-11-2025 14:00:57,40.703s,PASSED
+"startExistingApplication(""com.samsung.android.goodlock"")",,,,07-11-2025 14:00:17,07-11-2025 14:00:20,2.657s,PASSED
+Thread.sleep(2000),,,,07-11-2025 14:00:20,07-11-2025 14:00:22,2.005s,PASSED
+"process = getRuntime().exec(""adb shell input keyevent 187"")",,,,07-11-2025 14:00:22,07-11-2025 14:00:22,0.017s,PASSED
+process.waitFor(),,,,07-11-2025 14:00:22,07-11-2025 14:00:22,0.180s,PASSED
+Thread.sleep(2000),,,,07-11-2025 14:00:22,07-11-2025 14:00:24,2.018s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.Button - Close all""), 0)",,,,07-11-2025 14:00:24,07-11-2025 14:00:26,1.861s,PASSED
+process.waitFor(),,,,07-11-2025 14:00:26,07-11-2025 14:00:26,0.013s,PASSED
+Thread.sleep(2000),,,,07-11-2025 14:00:26,07-11-2025 14:00:28,2.014s,PASSED
+"startExistingApplication(""com.samsung.android.goodlock"")",,,,07-11-2025 14:00:28,07-11-2025 14:00:31,2.939s,PASSED
+Thread.sleep(5000),,,,07-11-2025 14:00:31,07-11-2025 14:00:36,5.011s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.TextView - Plugins (1)""), 2000)",,,,07-11-2025 14:00:36,07-11-2025 14:00:37,1.391s,PASSED
+"tap(findTestObject(""Object Repository/Extensions/android.widget.TextView - Extensions""), 2000)",,,,07-11-2025 14:00:37,07-11-2025 14:00:38,1.104s,PASSED
+"tap(findTestObject(""Object Repository/Extensions/android.widget.Button - info app""), 0)",,,,07-11-2025 14:00:38,07-11-2025 14:00:39,1.065s,PASSED
+"swipe(540, 430, 540, 1900)",,,,07-11-2025 14:00:39,07-11-2025 14:00:40,0.612s,PASSED
+"tap(findTestObject(""Object Repository/Extensions/android.widget.Button - more_option""), 0)",,,,07-11-2025 14:00:40,07-11-2025 14:00:43,3.280s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.TextView - Go to store""), 2000)",,,,07-11-2025 14:00:43,07-11-2025 14:00:45,1.446s,PASSED
+pressBack(),,,,07-11-2025 14:00:45,07-11-2025 14:00:47,2.494s,PASSED
+"tap(findTestObject(""Object Repository/Extensions/android.widget.Button - more_option""), 0)",,,,07-11-2025 14:00:47,07-11-2025 14:00:49,1.535s,PASSED
+"tap(findTestObject(""Object Repository/Extensions/android.widget.TextView - About""), 0)",,,,07-11-2025 14:00:49,07-11-2025 14:00:52,3.344s,PASSED
+"isPresent = waitForElementPresent(findTestObject(""Object Repository/android.widget.TextView - SoundAssistant""), 5, OPTIONAL)",,,,07-11-2025 14:00:52,07-11-2025 14:00:52,0.447s,PASSED
+if (isPresent),,,,07-11-2025 14:00:52,07-11-2025 14:00:52,0.083s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.Button (3)""), 0)",,,,07-11-2025 14:00:52,07-11-2025 14:00:54,1.269s,PASSED
+"getText(findTestObject(""Object Repository/Extensions/android.widget.TextView - Uninstall this app""), 0)",,,,07-11-2025 14:00:54,07-11-2025 14:00:55,1.224s,PASSED
+pressBack(),,,,07-11-2025 14:00:55,07-11-2025 14:00:55,0.225s,PASSED
+Thread.sleep(2000),,,,07-11-2025 14:00:55,07-11-2025 14:00:57,2.016s,PASSED
+,,,,,,,
+Test Cases/sa_tc3,,,,07-11-2025 14:00:57,07-11-2025 14:01:16,19.036s,PASSED
+"startExistingApplication(""com.samsung.android.soundassistant"")",,,,07-11-2025 14:00:57,07-11-2025 14:01:00,2.835s,PASSED
+"process = getRuntime().exec(""adb shell input keyevent 187"")",,,,07-11-2025 14:01:00,07-11-2025 14:01:00,0.008s,PASSED
+process.waitFor(),,,,07-11-2025 14:01:00,07-11-2025 14:01:00,0.138s,PASSED
+Thread.sleep(2000),,,,07-11-2025 14:01:00,07-11-2025 14:01:02,2.021s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.Button - Close all""), 0)",,,,07-11-2025 14:01:02,07-11-2025 14:01:04,1.659s,PASSED
+process.waitFor(),,,,07-11-2025 14:01:04,07-11-2025 14:01:04,0.008s,PASSED
+Thread.sleep(2000),,,,07-11-2025 14:01:04,07-11-2025 14:01:06,2.012s,PASSED
+"startExistingApplication(""com.samsung.android.soundassistant"")",,,,07-11-2025 14:01:06,07-11-2025 14:01:09,3.019s,PASSED
+Thread.sleep(2000),,,,07-11-2025 14:01:09,07-11-2025 14:01:11,2.006s,PASSED
+"tap(findTestObject(""Object Repository/Extensions/android.widget.TextView - Customize volume panel""), 0)",,,,07-11-2025 14:01:11,07-11-2025 14:01:12,0.487s,PASSED
+"currentStatus = getText(findTestObject(""Object Repository/Extensions/android.widget.TextView - Off""), 0)",,,,07-11-2025 14:01:12,07-11-2025 14:01:13,1.155s,PASSED
+"if (currentStatus == ""Off"")",,,,07-11-2025 14:01:13,07-11-2025 14:01:15,2.040s,PASSED
+"newStatus = getText(findTestObject(""Object Repository/Extensions/android.widget.TextView - On""), 0)",,,,07-11-2025 14:01:15,07-11-2025 14:01:15,0.419s,PASSED
+"if (newStatus == ""On"")",,,,07-11-2025 14:01:15,07-11-2025 14:01:15,0.005s,PASSED
+closeApplication(),,,,07-11-2025 14:01:15,07-11-2025 14:01:16,0.966s,PASSED
+,,,,,,,
+Test Cases/sa_tc4,,,,07-11-2025 14:01:16,07-11-2025 14:01:46,29.282s,PASSED
+"startExistingApplication(""com.samsung.android.soundassistant"")",,,,07-11-2025 14:01:17,07-11-2025 14:01:28,11.066s,PASSED
+"process = getRuntime().exec(""adb shell input keyevent 187"")",,,,07-11-2025 14:01:28,07-11-2025 14:01:28,0.005s,PASSED
+process.waitFor(),,,,07-11-2025 14:01:28,07-11-2025 14:01:28,0.119s,PASSED
+Thread.sleep(2000),,,,07-11-2025 14:01:28,07-11-2025 14:01:30,2.008s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.Button - Close all""), 0)",,,,07-11-2025 14:01:30,07-11-2025 14:01:32,1.989s,PASSED
+process.waitFor(),,,,07-11-2025 14:01:32,07-11-2025 14:01:32,0.004s,PASSED
+Thread.sleep(2000),,,,07-11-2025 14:01:32,07-11-2025 14:01:34,2.015s,PASSED
+"startExistingApplication(""com.samsung.android.soundassistant"")",,,,07-11-2025 14:01:34,07-11-2025 14:01:37,3.019s,PASSED
+Thread.sleep(2000),,,,07-11-2025 14:01:37,07-11-2025 14:01:39,2.014s,PASSED
+"tap(findTestObject(""Object Repository/Extensions/android.widget.TextView - Customize volume panel""), 0)",,,,07-11-2025 14:01:39,07-11-2025 14:01:39,0.503s,PASSED
+"isOn = waitForElementPresent(findTestObject(""Object Repository/Extensions/android.widget.TextView - On""), 2, OPTIONAL)",,,,07-11-2025 14:01:39,07-11-2025 14:01:40,0.975s,PASSED
+"isOff = waitForElementPresent(findTestObject(""Object Repository/Extensions/android.widget.TextView - Off""), 2, OPTIONAL)",,,,07-11-2025 14:01:40,07-11-2025 14:01:43,2.419s,WARNING
+if (isOn),,,,07-11-2025 14:01:43,07-11-2025 14:01:45,1.784s,PASSED
+closeApplication(),,,,07-11-2025 14:01:45,07-11-2025 14:01:46,0.939s,PASSED
+,,,,,,,
+Test Cases/sa_tc5(1),,,,07-11-2025 14:01:46,07-11-2025 14:02:14,28.139s,PASSED
+"startExistingApplication(""com.samsung.android.soundassistant"")",,,,07-11-2025 14:01:46,07-11-2025 14:01:53,6.669s,PASSED
+"clearProcess = getRuntime().exec(""adb shell pm clear com.samsung.android.soundassistant"")",,,,07-11-2025 14:01:53,07-11-2025 14:01:53,0.009s,PASSED
+clearProcess.waitFor(),,,,07-11-2025 14:01:53,07-11-2025 14:01:53,0.159s,PASSED
+"println(""Đã clear data của app com.samsung.android.soundassistant!"")",,,,07-11-2025 14:01:53,07-11-2025 14:01:53,0.003s,PASSED
+"startExistingApplication(""com.samsung.android.soundassistant"")",,,,07-11-2025 14:01:53,07-11-2025 14:01:55,2.711s,PASSED
+"tap(findTestObject(""Object Repository/Extensions/android.widget.Button - Continue""), 2000)",,,,07-11-2025 14:01:55,07-11-2025 14:01:58,2.192s,PASSED
+"tap(findTestObject(""Object Repository/Extensions/android.widget.Button - Allow""), 2000)",,,,07-11-2025 14:01:58,07-11-2025 14:01:58,0.348s,PASSED
+"tap(findTestObject(""Object Repository/Extensions/android.widget.TextView - Customize volume panel""), 0)",,,,07-11-2025 14:01:58,07-11-2025 14:01:59,0.861s,PASSED
+"isOn = waitForElementPresent(findTestObject(""Object Repository/Extensions/android.widget.TextView - On""), 2, OPTIONAL)",,,,07-11-2025 14:01:59,07-11-2025 14:02:01,2.230s,WARNING
+"isOff = waitForElementPresent(findTestObject(""Object Repository/Extensions/android.widget.TextView - Off""), 2, OPTIONAL)",,,,07-11-2025 14:02:01,07-11-2025 14:02:01,0.345s,PASSED
+if (isOn),,,,07-11-2025 14:02:01,07-11-2025 14:02:01,0.002s,PASSED
+else if (isOff),,,,07-11-2025 14:02:01,07-11-2025 14:02:05,3.742s,PASSED
+"tap(findTestObject(""Object Repository/Extensions/android.widget.TextView - Standard panel""), 0)",,,,07-11-2025 14:02:05,07-11-2025 14:02:06,1.257s,PASSED
+"tap(findTestObject(""Object Repository/Extensions/android.widget.TextView - Move""), 0)",,,,07-11-2025 14:02:06,07-11-2025 14:02:07,0.325s,PASSED
+"tap(findTestObject(""Object Repository/Extensions/android.widget.TextView - Layout  Right (1)""), 0)",,,,07-11-2025 14:02:07,07-11-2025 14:02:08,0.918s,PASSED
+"tap(findTestObject(""Object Repository/Extensions/android.widget.TextView - Layout Left (1)""), 0)",,,,07-11-2025 14:02:08,07-11-2025 14:02:09,1.095s,PASSED
+"tap(findTestObject(""Object Repository/Extensions/android.widget.TextView - Show volume level""), 0)",,,,07-11-2025 14:02:09,07-11-2025 14:02:11,1.812s,PASSED
+"tap(findTestObject(""Object Repository/Extensions/android.widget.TextView - Floating button""), 0)",,,,07-11-2025 14:02:11,07-11-2025 14:02:11,0.367s,PASSED
+"tap(findTestObject(""Object Repository/Extensions/android.widget.TextView - Floating button (1)""), 0)",,,,07-11-2025 14:02:11,07-11-2025 14:02:12,0.902s,PASSED
+"tap(findTestObject(""Object Repository/Extensions/android.widget.TextView - Floating button Sync position""), 0)",,,,07-11-2025 14:02:12,07-11-2025 14:02:13,0.917s,PASSED
+closeApplication(),,,,07-11-2025 14:02:13,07-11-2025 14:02:14,0.939s,PASSED
+,,,,,,,
+Test Cases/sa_tc6,,,,07-11-2025 14:02:14,07-11-2025 14:02:40,26.290s,PASSED
+"startExistingApplication(""com.samsung.android.soundassistant"")",,,,07-11-2025 14:02:14,07-11-2025 14:02:25,11.051s,PASSED
+"clearProcess = getRuntime().exec(""adb shell pm clear com.samsung.android.soundassistant"")",,,,07-11-2025 14:02:25,07-11-2025 14:02:25,0.010s,PASSED
+clearProcess.waitFor(),,,,07-11-2025 14:02:25,07-11-2025 14:02:25,0.166s,PASSED
+"println(""Đã clear data của app com.samsung.android.soundassistant!"")",,,,07-11-2025 14:02:25,07-11-2025 14:02:25,0.002s,PASSED
+"startExistingApplication(""com.samsung.android.soundassistant"")",,,,07-11-2025 14:02:25,07-11-2025 14:02:28,2.658s,PASSED
+"tap(findTestObject(""Object Repository/Extensions/android.widget.Button - Continue""), 2000)",,,,07-11-2025 14:02:28,07-11-2025 14:02:29,1.343s,PASSED
+"tap(findTestObject(""Object Repository/Extensions/android.widget.Button - Allow""), 2000)",,,,07-11-2025 14:02:29,07-11-2025 14:02:30,0.973s,PASSED
+"tap(findTestObject(""Object Repository/Extensions/android.widget.TextView - Customize volume panel""), 0)",,,,07-11-2025 14:02:30,07-11-2025 14:02:31,0.869s,PASSED
+"isOn = waitForElementPresent(findTestObject(""Object Repository/Extensions/android.widget.TextView - On""), 2, OPTIONAL)",,,,07-11-2025 14:02:31,07-11-2025 14:02:33,2.261s,WARNING
+"isOff = waitForElementPresent(findTestObject(""Object Repository/Extensions/android.widget.TextView - Off""), 2, OPTIONAL)",,,,07-11-2025 14:02:33,07-11-2025 14:02:34,0.373s,PASSED
+if (isOn),,,,07-11-2025 14:02:34,07-11-2025 14:02:34,0.002s,PASSED
+else if (isOff),,,,07-11-2025 14:02:34,07-11-2025 14:02:38,4.100s,PASSED
+"tap(findTestObject(""Object Repository/Extensions/android.widget.TextView - Standard panel""), 0)",,,,07-11-2025 14:02:38,07-11-2025 14:02:39,1.293s,PASSED
+"tap(findTestObject(""Object Repository/Extensions/android.widget.TextView - Move""), 0)",,,,07-11-2025 14:02:39,07-11-2025 14:02:39,0.341s,PASSED
+xStart = 797,,,,07-11-2025 14:02:39,07-11-2025 14:02:39,0.001s,PASSED
+yStart = 810 + 300,,,,07-11-2025 14:02:39,07-11-2025 14:02:39,0.014s,PASSED
+xEnd = 797,,,,07-11-2025 14:02:39,07-11-2025 14:02:39,0.002s,PASSED
+yEnd = 810 + 30,,,,07-11-2025 14:02:39,07-11-2025 14:02:39,0.005s,PASSED
+"swipe(xStart, yStart, xEnd, yEnd)",,,,07-11-2025 14:02:39,07-11-2025 14:02:40,0.610s,PASSED
+,,,,,,,
+Test Cases/sa_tc7,,,,07-11-2025 14:02:40,07-11-2025 14:02:59,19.220s,PASSED
+"startExistingApplication(""com.samsung.android.soundassistant"")",,,,07-11-2025 14:02:40,07-11-2025 14:02:43,2.747s,PASSED
+"clearProcess = getRuntime().exec(""adb shell pm clear com.samsung.android.soundassistant"")",,,,07-11-2025 14:02:43,07-11-2025 14:02:43,0.007s,PASSED
+clearProcess.waitFor(),,,,07-11-2025 14:02:43,07-11-2025 14:02:43,0.137s,PASSED
+"println(""Đã clear data của app com.samsung.android.soundassistant!"")",,,,07-11-2025 14:02:43,07-11-2025 14:02:43,0.006s,PASSED
+"startExistingApplication(""com.samsung.android.soundassistant"")",,,,07-11-2025 14:02:43,07-11-2025 14:02:46,2.612s,PASSED
+"tap(findTestObject(""Object Repository/Extensions/android.widget.Button - Continue""), 2000)",,,,07-11-2025 14:02:46,07-11-2025 14:02:48,2.111s,PASSED
+"tap(findTestObject(""Object Repository/Extensions/android.widget.Button - Allow""), 2000)",,,,07-11-2025 14:02:48,07-11-2025 14:02:48,0.346s,PASSED
+"tap(findTestObject(""Object Repository/Extensions/android.widget.TextView - Customize volume panel""), 0)",,,,07-11-2025 14:02:48,07-11-2025 14:02:49,0.877s,PASSED
+"isOn = waitForElementPresent(findTestObject(""Object Repository/Extensions/android.widget.TextView - On""), 2, OPTIONAL)",,,,07-11-2025 14:02:49,07-11-2025 14:02:51,2.261s,WARNING
+"isOff = waitForElementPresent(findTestObject(""Object Repository/Extensions/android.widget.TextView - Off""), 2, OPTIONAL)",,,,07-11-2025 14:02:51,07-11-2025 14:02:52,0.339s,PASSED
+if (isOn),,,,07-11-2025 14:02:52,07-11-2025 14:02:52,0.002s,PASSED
+else if (isOff),,,,07-11-2025 14:02:52,07-11-2025 14:02:56,4.049s,PASSED
+"tap(findTestObject(""Object Repository/Extensions/android.widget.TextView - Standard panel""), 0)",,,,07-11-2025 14:02:56,07-11-2025 14:02:57,1.251s,PASSED
+"tap(findTestObject(""Object Repository/Extensions/android.widget.TextView - Layout  Right (1)""), 2000)",,,,07-11-2025 14:02:57,07-11-2025 14:02:57,0.339s,PASSED
+"tap(findTestObject(""Object Repository/Extensions/android.widget.TextView - Layout Left (1)""), 2000)",,,,07-11-2025 14:02:57,07-11-2025 14:02:58,1.108s,PASSED
+closeApplication(),,,,07-11-2025 14:02:58,07-11-2025 14:02:59,0.894s,PASSED
+,,,,,,,
+Test Cases/sa_tc8,,,,07-11-2025 14:02:59,07-11-2025 14:03:28,29.117s,PASSED
+"startExistingApplication(""com.samsung.android.soundassistant"")",,,,07-11-2025 14:02:59,07-11-2025 14:03:11,11.189s,PASSED
+"clearProcess = getRuntime().exec(""adb shell pm clear com.samsung.android.soundassistant"")",,,,07-11-2025 14:03:11,07-11-2025 14:03:11,0.010s,PASSED
+clearProcess.waitFor(),,,,07-11-2025 14:03:11,07-11-2025 14:03:11,0.146s,PASSED
+"println(""Đã clear data của app com.samsung.android.soundassistant!"")",,,,07-11-2025 14:03:11,07-11-2025 14:03:11,0.003s,PASSED
+"startExistingApplication(""com.samsung.android.soundassistant"")",,,,07-11-2025 14:03:11,07-11-2025 14:03:14,2.866s,PASSED
+"tap(findTestObject(""Object Repository/Extensions/android.widget.Button - Continue""), 2000)",,,,07-11-2025 14:03:14,07-11-2025 14:03:15,1.334s,PASSED
+"tap(findTestObject(""Object Repository/Extensions/android.widget.Button - Allow""), 2000)",,,,07-11-2025 14:03:15,07-11-2025 14:03:16,0.937s,PASSED
+"tap(findTestObject(""Object Repository/Extensions/android.widget.TextView - Customize volume panel""), 0)",,,,07-11-2025 14:03:16,07-11-2025 14:03:17,0.873s,PASSED
+"isOn = waitForElementPresent(findTestObject(""Object Repository/Extensions/android.widget.TextView - On""), 2, OPTIONAL)",,,,07-11-2025 14:03:17,07-11-2025 14:03:19,2.226s,WARNING
+"isOff = waitForElementPresent(findTestObject(""Object Repository/Extensions/android.widget.TextView - Off""), 2, OPTIONAL)",,,,07-11-2025 14:03:19,07-11-2025 14:03:19,0.337s,PASSED
+if (isOn),,,,07-11-2025 14:03:19,07-11-2025 14:03:19,0.001s,PASSED
+else if (isOff),,,,07-11-2025 14:03:19,07-11-2025 14:03:23,3.332s,PASSED
+"tap(findTestObject(""Object Repository/Extensions/android.widget.TextView - Standard panel""), 0)",,,,07-11-2025 14:03:23,07-11-2025 14:03:24,1.259s,PASSED
+"isSelected = getAttribute(findTestObject(""Object Repository/Extensions/android.widget.TextView - Show volume level""), ""selected"", 0)",,,,07-11-2025 14:03:24,07-11-2025 14:03:24,0.342s,PASSED
+"if (isSelected != ""true"")",,,,07-11-2025 14:03:24,07-11-2025 14:03:24,0.000s,PASSED
+else,,,,07-11-2025 14:03:24,07-11-2025 14:03:27,3.070s,PASSED
+closeApplication(),,,,07-11-2025 14:03:27,07-11-2025 14:03:28,0.908s,PASSED
+,,,,,,,
+Test Cases/sa_tc9,,,,07-11-2025 14:03:28,07-11-2025 14:03:52,24.079s,PASSED
+"startExistingApplication(""com.samsung.android.soundassistant"")",,,,07-11-2025 14:03:28,07-11-2025 14:03:35,6.486s,PASSED
+"clearProcess = getRuntime().exec(""adb shell pm clear com.samsung.android.soundassistant"")",,,,07-11-2025 14:03:35,07-11-2025 14:03:35,0.006s,PASSED
+clearProcess.waitFor(),,,,07-11-2025 14:03:35,07-11-2025 14:03:35,0.157s,PASSED
+"println(""Đã clear data của app com.samsung.android.soundassistant!"")",,,,07-11-2025 14:03:35,07-11-2025 14:03:35,0.001s,PASSED
+"startExistingApplication(""com.samsung.android.soundassistant"")",,,,07-11-2025 14:03:35,07-11-2025 14:03:38,2.959s,PASSED
+"tap(findTestObject(""Object Repository/Extensions/android.widget.Button - Continue""), 2000)",,,,07-11-2025 14:03:38,07-11-2025 14:03:39,1.336s,PASSED
+"tap(findTestObject(""Object Repository/Extensions/android.widget.Button - Allow""), 2000)",,,,07-11-2025 14:03:39,07-11-2025 14:03:41,1.162s,PASSED
+"tap(findTestObject(""Object Repository/Extensions/android.widget.TextView - Customize volume panel""), 0)",,,,07-11-2025 14:03:41,07-11-2025 14:03:41,0.881s,PASSED
+"isOn = waitForElementPresent(findTestObject(""Object Repository/Extensions/android.widget.TextView - On""), 2, OPTIONAL)",,,,07-11-2025 14:03:41,07-11-2025 14:03:44,2.173s,WARNING
+"isOff = waitForElementPresent(findTestObject(""Object Repository/Extensions/android.widget.TextView - Off""), 2, OPTIONAL)",,,,07-11-2025 14:03:44,07-11-2025 14:03:44,0.349s,PASSED
+if (isOn),,,,07-11-2025 14:03:44,07-11-2025 14:03:44,0.002s,PASSED
+else if (isOff),,,,07-11-2025 14:03:44,07-11-2025 14:03:48,4.006s,PASSED
+"tap(findTestObject(""Object Repository/Extensions/android.widget.TextView - Standard panel""), 1000)",,,,07-11-2025 14:03:48,07-11-2025 14:03:49,1.328s,PASSED
+"tap(findTestObject(""Object Repository/Extensions/android.widget.TextView - Floating button""), 1000)",,,,07-11-2025 14:03:49,07-11-2025 14:03:50,1.054s,PASSED
+"tap(findTestObject(""Object Repository/Extensions/android.widget.TextView - Floating button (1)""), 1000)",,,,07-11-2025 14:03:50,07-11-2025 14:03:51,0.317s,PASSED
+"tap(findTestObject(""Object Repository/Extensions/android.widget.TextView - Floating button Sync position""), 1000)",,,,07-11-2025 14:03:51,07-11-2025 14:03:52,0.874s,PASSED
+closeApplication(),,,,07-11-2025 14:03:52,07-11-2025 14:03:52,0.847s,PASSED
+,,,,,,,
+Test Cases/sa_tc10,,,,07-11-2025 14:03:52,07-11-2025 14:04:21,28.479s,PASSED
+"startExistingApplication(""com.samsung.android.soundassistant"")",,,,07-11-2025 14:03:53,07-11-2025 14:04:04,11.013s,PASSED
+"clearProcess = getRuntime().exec(""adb shell pm clear com.samsung.android.soundassistant"")",,,,07-11-2025 14:04:04,07-11-2025 14:04:04,0.004s,PASSED
+clearProcess.waitFor(),,,,07-11-2025 14:04:04,07-11-2025 14:04:04,0.178s,PASSED
+"println(""Đã clear data của app com.samsung.android.soundassistant!"")",,,,07-11-2025 14:04:04,07-11-2025 14:04:04,0.004s,PASSED
+"startExistingApplication(""com.samsung.android.soundassistant"")",,,,07-11-2025 14:04:04,07-11-2025 14:04:06,2.703s,PASSED
+"tap(findTestObject(""Object Repository/Extensions/android.widget.Button - Continue""), 2000)",,,,07-11-2025 14:04:06,07-11-2025 14:04:08,1.324s,PASSED
+"tap(findTestObject(""Object Repository/Extensions/android.widget.Button - Allow""), 2000)",,,,07-11-2025 14:04:08,07-11-2025 14:04:09,1.669s,PASSED
+"tap(findTestObject(""Object Repository/Extensions/android.widget.TextView - Customize volume panel""), 0)",,,,07-11-2025 14:04:09,07-11-2025 14:04:10,0.382s,PASSED
+"isOn = waitForElementPresent(findTestObject(""Object Repository/Extensions/android.widget.TextView - On""), 2, OPTIONAL)",,,,07-11-2025 14:04:10,07-11-2025 14:04:12,2.213s,WARNING
+"isOff = waitForElementPresent(findTestObject(""Object Repository/Extensions/android.widget.TextView - Off""), 2, OPTIONAL)",,,,07-11-2025 14:04:12,07-11-2025 14:04:12,0.328s,PASSED
+if (isOn),,,,07-11-2025 14:04:12,07-11-2025 14:04:12,0.001s,PASSED
+else if (isOff),,,,07-11-2025 14:04:12,07-11-2025 14:04:16,3.988s,PASSED
+"tap(findTestObject(""Object Repository/Extensions/android.widget.TextView - Expanded panel""), 1000)",,,,07-11-2025 14:04:16,07-11-2025 14:04:17,0.312s,PASSED
+"tap(findTestObject(""Object Repository/Extensions/android.widget.TextView - Bluetooth metronome""), 1000)",,,,07-11-2025 14:04:17,07-11-2025 14:04:18,1.786s,PASSED
+"tap(findTestObject(""Object Repository/Extensions/android.widget.TextView - Show toolbar functions""), 1000)",,,,07-11-2025 14:04:18,07-11-2025 14:04:19,0.377s,PASSED
+"tap(findTestObject(""Object Repository/Extensions/android.widget.TextView - App volume""), 1000)",,,,07-11-2025 14:04:19,07-11-2025 14:04:20,1.125s,PASSED
+closeApplication(),,,,07-11-2025 14:04:20,07-11-2025 14:04:21,0.918s,PASSED

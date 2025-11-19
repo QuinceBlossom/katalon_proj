@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>sa_tc1(modify_script)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e319f3e4-2557-4323-b8da-1ecb9cdee793</testCaseGuid>
+</TestCaseEntity>

@@ -17,29 +17,48 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startExistingApplication('com.samsung.android.soundassistant')
+//Tap vào text Plugins
+Mobile.tap(findTestObject('Object Repository/android.widget.TextView - Plugins (1)'), 2000)
 
-Mobile.tap(findTestObject('Object Repository/Extensions/android.widget.TextView - Layout  Right (1)'), 0)
+Mobile.tap(findTestObject('Object Repository/Extensions/android.widget.TextView - Extensions'), 2000)
 
-Mobile.tap(findTestObject('Object Repository/Extensions/android.widget.TextView - Layout Left (1)'), 0)
+Mobile.scrollToText('Sound Assistant')
 
-Mobile.closeApplication()
+Mobile.getText(findTestObject('Object Repository/Extensions/android.widget.TextView - Sound Assistant'), 0)
 
-Mobile.startExistingApplication('com.samsung.android.soundassistant')
+Mobile.tap(findTestObject('Object Repository/Extensions/android.widget.TextView - Sound Assistant'), 2000)
 
-Mobile.getText(findTestObject('Object Repository/Extensions/android.widget.TextView - Show volume level (1)'), 0)
+//vuốt xuống để katalon nhận object
+Mobile.swipe(341, 2000, 341, 300)
 
-Mobile.closeApplication()
+//vuốt lên để bắt nút download
+Mobile.swipe(540, 430, 540, 1900)
 
-Mobile.startExistingApplication('com.samsung.android.soundassistant')
+// tap vào download khi đang fold
+Mobile.tap(findTestObject('Object Repository/Extensions/android.widget.Button - download_fold'), 2000)
+// tap vào download khi đang unfold
+Mobile.tap(findTestObject('Object Repository/Extensions/android.widget.Button - Download_unfold'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Extensions/android.widget.TextView - Expanded panel'), 0)
+//nếu ko thể tap vào nut download bên trong SA thì tap vào download ngay trên mục SA
+Mobile.tap(findTestObject('Object Repository/Extensions/android.widget.Button - download_inline_SA'), 0)
+// đợi khi nào nút download trên mục SA down xog thì tap vào SA, 
+// download_inline_SA nút này sẽ biến mất nghĩa là down xog, thì tap trực tiếp vào SA
+Mobile.tap(findTestObject('Object Repository/Extensions/android.widget.TextView - Sound Assistant'), 2000)
 
-Mobile.tap(findTestObject('Object Repository/Extensions/android.widget.TextView - Bluetooth metronome'), 0)
+// 2. [BƯỚC QUAN TRỌNG BỊ THIẾU]
+// Đợi cho nút "PLAY" khi đang unfold xuất hiện (chờ tối đa 120 giây)
+Mobile.waitForElementPresent(findTestObject('Object Repository/Extensions/android.widget.Button - play_fold'), 120)
 
-Mobile.tap(findTestObject('Object Repository/Extensions/android.widget.TextView - Show toolbar functions'), 0)
+// Đợi cho nút "PLAY" khi đang fold xuất hiện (chờ tối đa 120 giây)
+Mobile.waitForElementPresent(findTestObject('Object Repository/Extensions/android.widget.Button - play_unfold'), 120)
 
-Mobile.tap(findTestObject('Object Repository/Extensions/android.widget.TextView - App volume'), 0)
+// 3. Sau khi nút "PLAY" đã xuất hiện ở fold, BÂY GIỜ MỚI NHẤN VÀO NÓ
+Mobile.tap(findTestObject('Object Repository/Extensions/android.widget.Button - play_fold'), 2000)
 
-Mobile.closeApplication()
+// 3.1 Sau khi nút "PLAY" đã xuất hiện khi đang unfold, BÂY GIỜ MỚI NHẤN VÀO NÓ
+Mobile.tap(findTestObject('Object Repository/Extensions/android.widget.Button - play_unfold'), 2000)
+
+
+
+
 

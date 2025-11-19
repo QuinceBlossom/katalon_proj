@@ -43,20 +43,23 @@ Mobile.tap(findTestObject('Object Repository/android.widget.TextView - Plugins (
 
 Mobile.tap(findTestObject('Object Repository/Extensions/android.widget.TextView - Extensions'), 2000)
 
+Mobile.swipe(341, 2000, 341, 300)
+
 Mobile.tap(findTestObject('Object Repository/Extensions/android.widget.TextView - Sound Assistant'), 2000)
 
 Mobile.swipe(341, 2000, 341, 300)
 
 Mobile.swipe(540, 430, 540, 1900)
 
-Mobile.tap(findTestObject('Object Repository/Extensions/android.widget.Button - download'), 2000)
+// tap nut download 
+Mobile.tap(findTestObject('Object Repository/Extensions/android.widget.Button'), 2000)
 
 // 2. [BƯỚC QUAN TRỌNG BỊ THIẾU]
 // Đợi cho nút "PLAY" xuất hiện (chờ tối đa 120 giây)
-Mobile.waitForElementPresent(findTestObject('Object Repository/Extensions/android.widget.Button - play'), 120)
+Mobile.waitForElementPresent(findTestObject('Object Repository/Extensions/android.widget.Button'), 120)
 
 // 3. Sau khi nút "PLAY" đã xuất hiện, BÂY GIỜ MỚI NHẤN VÀO NÓ
-Mobile.tap(findTestObject('Object Repository/Extensions/android.widget.Button - play'), 2000)
+Mobile.tap(findTestObject('Object Repository/Extensions/android.widget.Button'), 2000)
 
 // 4. Các bước tiếp theo của bạn...
 Mobile.tap(findTestObject('Object Repository/Extensions/android.widget.Button - Continue'), 2000)

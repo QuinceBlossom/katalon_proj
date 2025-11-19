@@ -52,6 +52,7 @@ Mobile.swipe(540, 430, 540, 1900)
 Mobile.tap(findTestObject('Object Repository/Extensions/android.widget.Button - more_option'), 0)//more option
 
 Mobile.tap(findTestObject('Object Repository/android.widget.TextView - Go to store'), 2000)// tap vào go to store
+Thread.sleep(3000)
 
 Mobile.pressBack()
 

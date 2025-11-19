@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MobileElementEntity>
    <description></description>
-   <name>android.widget.SeekBar - 30.0 (1)</name>
+   <name>android.widget.TextView - Extensions (1)</name>
    <tag></tag>
    <elementGuidId>00000000-0000-0000-0000-000000000000</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
@@ -12,8 +12,8 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>android.widget.SeekBar</value>
-      <webElementGuid>fc6bfe70-eb25-48d9-858e-1401f35dcdb5</webElementGuid>
+      <value>android.widget.TextView</value>
+      <webElementGuid>2a957ca9-47ae-4bfc-9201-7faa78ec4417</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -21,31 +21,23 @@
       <name>index</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>7d7ad9dd-0dfe-4918-9a2e-8b113abda8e0</webElementGuid>
+      <webElementGuid>37b76992-d9fa-455f-a27f-fc5edbd87477</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>30.0</value>
-      <webElementGuid>e4474b3d-8278-486f-8ab2-338a2472ad6e</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>resource-id</name>
-      <type>Main</type>
-      <value>com.samsung.android.soundassistant:id/volume_seekbar</value>
-      <webElementGuid>9e166ffe-0812-40d5-a8ed-730053c903db</webElementGuid>
+      <value>Extensions</value>
+      <webElementGuid>0d10375a-c70b-4c5f-8aa4-e9ec7e93b56d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>package</name>
       <type>Main</type>
-      <value>com.samsung.android.soundassistant</value>
-      <webElementGuid>50a50aaf-5595-4482-9178-8ae38c6d8d06</webElementGuid>
+      <value>com.samsung.android.goodlock</value>
+      <webElementGuid>3fc883c4-6779-4a3a-a327-451bbd6c2c60</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +45,7 @@
       <name>checkable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>e08aa35c-3aff-4eb8-a0fc-c16c385e79bb</webElementGuid>
+      <webElementGuid>60de6385-02d1-46d4-a411-29fabe4f3a18</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +53,7 @@
       <name>checked</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>18bb776f-0b73-4a56-9578-4b5c3a5d71d6</webElementGuid>
+      <webElementGuid>6b384124-7fbe-4199-a077-cf937a71f524</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +61,7 @@
       <name>clickable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>c16e8148-ffd0-4b2a-9b15-2113f2be6438</webElementGuid>
+      <webElementGuid>fee46083-9667-41c9-b3b4-fe19870f7f22</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +69,7 @@
       <name>enabled</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>ffb1fbf0-037f-4ecd-b2a9-6d5d39c65837</webElementGuid>
+      <webElementGuid>060dff8c-ba9d-4d25-814d-296a85850d67</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,7 +77,7 @@
       <name>focusable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>8334faad-f8cc-4f9f-9871-e89ec1495c13</webElementGuid>
+      <webElementGuid>50df1b23-a21d-4103-b904-0fde473110ee</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -93,7 +85,7 @@
       <name>focused</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>0a5fde43-725e-445d-8928-a33ff0e42fe2</webElementGuid>
+      <webElementGuid>7a561d21-d261-4f36-8abc-61ca09d665a3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -101,7 +93,7 @@
       <name>scrollable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>cef65bb2-1dd3-4cfa-9ed6-569565817396</webElementGuid>
+      <webElementGuid>be68f9d6-08ed-4565-bb3c-daeb6beea21c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -109,7 +101,7 @@
       <name>long-clickable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>feab63bc-34fe-4764-afbe-4f5acff79ce1</webElementGuid>
+      <webElementGuid>6ee53b0b-4692-4080-a6ea-4a5afc7f46b2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -117,7 +109,7 @@
       <name>password</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>ae8b65d3-0b7c-42e7-8487-418cb13138b8</webElementGuid>
+      <webElementGuid>149fef92-5e80-49a6-b62c-ef2a3c511811</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -125,39 +117,39 @@
       <name>selected</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>d06cbbe7-8f0a-4b10-8820-8888b0e771d0</webElementGuid>
+      <webElementGuid>35dcaa9a-950c-457f-a65d-b71172347c72</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>x</name>
       <type>Main</type>
-      <value>245</value>
-      <webElementGuid>ebae8254-5fce-4858-89d3-7e15c7dba0c6</webElementGuid>
+      <value>695</value>
+      <webElementGuid>b0f4c987-7dbf-4aba-8f09-99e6f6a2406d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>y</name>
       <type>Main</type>
-      <value>711</value>
-      <webElementGuid>aab6eb32-9d1d-4993-9a16-c05100f9b98e</webElementGuid>
+      <value>290</value>
+      <webElementGuid>0849d59b-7e8c-4da0-a36b-cfc1d41bca41</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>width</name>
       <type>Main</type>
-      <value>75</value>
-      <webElementGuid>1c09ca72-b138-4d36-9927-c3762b2406b8</webElementGuid>
+      <value>156</value>
+      <webElementGuid>65e38989-a14d-4d73-8e06-d90db44558ee</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>height</name>
       <type>Main</type>
-      <value>331</value>
-      <webElementGuid>075af469-bed7-4cc3-8a0d-66ff33249837</webElementGuid>
+      <value>45</value>
+      <webElementGuid>565bb182-ec0d-4568-b8b2-b413a9bbfd9d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -165,23 +157,23 @@
       <name>a11y-focused</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>1fbdc301-2a69-42c2-8f23-37dc9a024846</webElementGuid>
+      <webElementGuid>35170d71-5dc8-434b-a5a3-9c3d71c46bd9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>a11y-important</name>
       <type>Main</type>
-      <value>false</value>
-      <webElementGuid>004415cf-73fb-4328-8981-57ef97082393</webElementGuid>
+      <value>true</value>
+      <webElementGuid>805fe91c-15f3-47f0-b31e-4d41e8e12b11</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>bounds</name>
       <type>Main</type>
-      <value>[245,711][320,1042]</value>
-      <webElementGuid>63ecef14-58e9-47af-8573-05a026bef4d4</webElementGuid>
+      <value>[695,290][851,335]</value>
+      <webElementGuid>b365ec57-99e0-4271-b704-efd8507ae5df</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -189,7 +181,7 @@
       <name>content-invalid</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>a6d68c2c-e5ba-4ea2-9564-615859d0505e</webElementGuid>
+      <webElementGuid>1776f627-6e42-4192-85d9-bdc1d7955216</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -197,7 +189,7 @@
       <name>context-clickable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>a3d82ccc-c168-4b29-95f9-d1c7eb757e09</webElementGuid>
+      <webElementGuid>48eb6f6b-fc18-425d-b137-cdacd7d01bd3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -205,7 +197,7 @@
       <name>dismissable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>dca59a5d-2be4-4cf2-8f1a-344fefd3bfee</webElementGuid>
+      <webElementGuid>1387e13f-3da6-4729-95b1-58bb46f4e9b7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -213,15 +205,15 @@
       <name>displayed</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>cb4d2128-f194-4397-9db8-aba1f0932d16</webElementGuid>
+      <webElementGuid>2c5fc94d-0bd4-48a7-a2a0-110e059760ab</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>drawing-order</name>
       <type>Main</type>
-      <value>1</value>
-      <webElementGuid>20ff1083-00da-451e-b33d-50193addac88</webElementGuid>
+      <value>0</value>
+      <webElementGuid>b9e030f6-e1ca-4d2a-a7fa-518752febcf7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -229,7 +221,7 @@
       <name>heading</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>ed0def5c-ca81-46ca-a5b7-3403305593a7</webElementGuid>
+      <webElementGuid>490f5512-ef0a-48a9-b2bd-f49444cb66f1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -237,7 +229,7 @@
       <name>live-region</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>705b3c53-7270-46e5-8201-c461dbae6179</webElementGuid>
+      <webElementGuid>a24ae21c-d60a-49e1-b1ab-f7d3f592a291</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -245,7 +237,7 @@
       <name>screen-reader-focusable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>69b49bfa-4271-48dd-a035-a494eed77874</webElementGuid>
+      <webElementGuid>2fa73188-10e6-4a5d-84c4-5ebd7912ad96</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -253,7 +245,7 @@
       <name>showing-hint</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>c85af15e-b624-43a6-8b55-db4154c5ce9b</webElementGuid>
+      <webElementGuid>650b9969-e67c-44f2-ae4a-dd86d89a58ba</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -261,32 +253,32 @@
       <name>text-entry-key</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>899e2706-1d73-4865-ba63-b48f75674fbd</webElementGuid>
+      <webElementGuid>db8f2aa5-1a8f-4d49-806f-f8914d76c0f2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[2]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.LinearLayout[1]/androidx.viewpager.widget.ViewPager[1]/androidx.recyclerview.widget.RecyclerView[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[2]/android.widget.FrameLayout[1]/android.widget.SeekBar[1]</value>
-      <webElementGuid>e7066872-b2c4-46d1-9b04-0073f2537d31</webElementGuid>
+      <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/R0.i0[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.view.View[4]/android.widget.TextView[1]</value>
+      <webElementGuid>66aa9f79-ff86-41be-b849-22bb273a665e</webElementGuid>
    </webElementProperties>
-   <locator>//*[@class = 'android.widget.SeekBar' and (@text = '30.0' or . = '30.0') and @resource-id = 'com.samsung.android.soundassistant:id/volume_seekbar']</locator>
+   <locator>//*[@class = 'android.widget.TextView' and (@text = 'Extensions' or . = 'Extensions')]</locator>
    <locatorCollection>
       <entry>
-         <key>NAME</key>
-         <value></value>
+         <key>ATTRIBUTES</key>
+         <value>//*[@class = 'android.widget.TextView' and (@text = 'Extensions' or . = 'Extensions')]</value>
+      </entry>
+      <entry>
+         <key>CLASS_NAME</key>
+         <value>android.widget.TextView</value>
       </entry>
       <entry>
          <key>IOS_PREDICATE_STRING</key>
          <value></value>
       </entry>
       <entry>
-         <key>CUSTOM</key>
-         <value></value>
-      </entry>
-      <entry>
-         <key>IMAGE</key>
+         <key>ID</key>
          <value></value>
       </entry>
       <entry>
@@ -295,10 +287,14 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[2]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.LinearLayout[1]/androidx.viewpager.widget.ViewPager[1]/androidx.recyclerview.widget.RecyclerView[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[2]/android.widget.FrameLayout[1]/android.widget.SeekBar[1]</value>
+         <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/R0.i0[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.view.View[4]/android.widget.TextView[1]</value>
       </entry>
       <entry>
-         <key>ANDROID_VIEWTAG</key>
+         <key>NAME</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
          <value></value>
       </entry>
       <entry>
@@ -306,20 +302,16 @@
          <value></value>
       </entry>
       <entry>
-         <key>CLASS_NAME</key>
-         <value>android.widget.SeekBar</value>
+         <key>CUSTOM</key>
+         <value></value>
       </entry>
       <entry>
-         <key>ID</key>
-         <value>com.samsung.android.soundassistant:id/volume_seekbar</value>
-      </entry>
-      <entry>
-         <key>ATTRIBUTES</key>
-         <value>//*[@class = 'android.widget.SeekBar' and (@text = '30.0' or . = '30.0') and @resource-id = 'com.samsung.android.soundassistant:id/volume_seekbar']</value>
+         <key>ANDROID_VIEWTAG</key>
+         <value></value>
       </entry>
       <entry>
          <key>ANDROID_UI_AUTOMATOR</key>
-         <value>new UiSelector().className(&quot;android.widget.SeekBar&quot;).text(&quot;30.0&quot;).resourceId(&quot;com.samsung.android.soundassistant:id/volume_seekbar&quot;)</value>
+         <value>new UiSelector().className(&quot;android.widget.TextView&quot;).text(&quot;Extensions&quot;)</value>
       </entry>
    </locatorCollection>
    <locatorStrategy>ATTRIBUTES</locatorStrategy>
